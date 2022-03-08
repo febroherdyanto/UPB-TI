@@ -1,0 +1,2 @@
+=== REFERENSI ===
+https://github.com/jagongoding-com/python-latihan-logika
