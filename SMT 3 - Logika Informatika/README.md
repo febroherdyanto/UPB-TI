@@ -1,0 +1,1 @@
+# smt3_logika-informatika
