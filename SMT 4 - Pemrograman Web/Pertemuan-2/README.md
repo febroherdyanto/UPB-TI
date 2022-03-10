@@ -76,5 +76,5 @@ Dari paragraf kedua masih berada pada rata kanan, kita akan mencoba ubah menjadi
 ```
 
 Dan akan berubah seperti ini :
-![Img - Change Alignment on Paragraph 2](_imageData/changeAlignmentP2.png)
+![Img - Change Alignment on Paragraph 2](_imageData/changeAlignmentP2N.png)
 
