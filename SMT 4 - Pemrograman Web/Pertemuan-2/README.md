@@ -44,6 +44,37 @@ Setelah berhasil membuat paragraf baru, kali ini saya akan membuat perataan para
 ```
 <br>
 
-Berikut tampilannya :
+Berikut tampilannya akan terlihat paragraf pertama menjadi rata tengah, dan paragraf kedua menjadi rata kanan :
 
 ![Img - Alignment Paragraph HTML](_imageData/alignParagraf.png)
+
+<br>
+2. Menambahkan Judul
+Setelah membuat paragraf, saatnya kita membuat Judul pada sebuah halaman Website. Yaitu menggunakan Heading.
+Saya akan menambahkan tag heading pada tiap-tiap paragraf.
+
+```
+<!-- judul paragraf pertama -->
+<h1>Belajar Dasar HTML</h1>
+<!-- Ini adalah paragraf pertama -->
+<p align="center">Kami sedang belajar HTML dasar, pada matakuliah Pemrograman Web di Prodi Teknik Informatika Universitas Pelita Bangsa. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.</p>
+
+<!-- judul paragraf kedua -->
+<h2>Paragraf pada HTML</h2>
+<!-- Ini adalah paragraf kedua -->
+<p align="right">Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang saling mendukung sehingga menjadi satu kesatuan. Paragraf dibuat dengan menggunakan tag dasar html.</p>
+```
+
+Berikut hasil dari source code yang sudah diperbarui :
+
+![Img - Heading HTML](_imageData/addHeading.png)
+
+Dari paragraf kedua masih berada pada rata kanan, kita akan mencoba ubah menjadi rata kiri. Dengan source code berikut :
+
+```
+<p align="left">Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang saling mendukung sehingga menjadi satu kesatuan. Paragraf dibuat dengan menggunakan tag dasar html.</p>
+```
+
+Dan akan berubah seperti ini :
+![Img - Change Alignment on Paragraph 2](_imageData/changeAlignmentP2.png)
+
