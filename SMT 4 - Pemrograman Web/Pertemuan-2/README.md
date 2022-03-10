@@ -42,3 +42,8 @@ Setelah berhasil membuat paragraf baru, kali ini saya akan membuat perataan para
 <!-- Ini adalah paragraf kedua -->
 <p align="right">Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang saling mendukung sehingga menjadi satu kesatuan. Paragraf dibuat dengan menggunakan tag dasar html.</p>
 ```
+<br>
+
+Berikut tampilannya :
+
+![Img - Alignment Paragraph HTML](_imageData/alignParagraf.png)
