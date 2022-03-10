@@ -15,3 +15,7 @@ Langkah pertama untuk membuat tugas ini adalah membuat file baru dengan nama : *
 </body>
 </html>
 ```
+
+Dibawah ini adalah hasil dari source code tersebut : <br>
+![Img - HTML Title Head](_imageData/titleHTML.png) <br>
+Terlihat title pada tab browser berubah menjadi **Tag HTML Dasar**
