@@ -108,7 +108,9 @@ Dan berikut adalah hasil dari *source code* diatas : <br>
 4. **Menyisipkan Gambar**
 <br>
 Pada Bagian ketiga, saya ingin menambahkan gambar di file HTML yang telah dibuat, yaitu logo Universitas Pelita Bangsa dengan ukuran 200 x 180 px. <br>
-Berikut *source code* yang saya tambahkan : <br>
+
+Berikut *source code* yang saya tambahkan : 
+<br>
 
 ```
 <h3>Menambahkan Gambar</h3>
