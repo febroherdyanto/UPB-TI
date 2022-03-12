@@ -7,6 +7,19 @@
 | Kelas | TI.20.B.1 |
 | Mata Kuliah | Pemrograman Web |
 
+<hr>
+
+## Daftar Isi
+| No | Judul | Link |
+| --- | --- | --- |
+| 1 | Membuat Paragraf | [Click Here](#membuat-paragraf) |
+| 2 | Menambahkan Judul / Heading | [Click Here](#menambahkan-judul--heading) |
+| 3 | Pemformatan / Modifikasi Teks | [Click Here](#memformat--modifikasi-teks) |
+| 4 | Menyisipkan Gambar | [Click Here](#menyisipkan-gambar) |
+| 5 | Menambahkan Hyperlink | [Click Here](#menambahkan-hyperlink) |
+| 6 | Pertanyaan Modul | [Click Here](#pertanyaan) |
+| 7 | Jawaban Modul | [Click Here](#jawaban) |
+
 **File : lab1_tag_dasar.html**
 
 
@@ -25,6 +38,8 @@ Langkah pertama untuk membuat tugas ini adalah membuat file baru dengan nama : *
 Dibawah ini adalah hasil dari source code tersebut : <br>
 ![Img - HTML Title Head](_imageData/titleHTML.png) <br>
 Terlihat title pada tab browser berubah menjadi **Tag HTML Dasar**
+
+### Membuat Paragraf 
 
 1. **Membuat Paragraf** 
 <br>
@@ -58,7 +73,10 @@ Berikut tampilannya akan terlihat paragraf pertama menjadi rata tengah, dan para
 
 <br>
 
+### Menambahkan Judul / Heading 
+
 2. **Menambahkan Judul**
+<br>
 Setelah membuat paragraf, saatnya kita membuat Judul pada sebuah halaman Website. Yaitu menggunakan Heading.
 Saya akan menambahkan tag heading pada tiap-tiap paragraf.
 
@@ -87,6 +105,8 @@ Dari paragraf kedua masih berada pada rata kanan, kita akan mencoba ubah menjadi
 Dan akan berubah seperti ini :
 ![Img - Change Alignment on Paragraph 2](_imageData/changeAlignmentP2N.png)
 
+### Memformat / Modifikasi Teks 
+
 3. **Memformat Teks Paragraf**
 <br> 
 Setelah melakukan perataan pada sebuah paragraf, saya akan melakukan modifikasi terhadap paragaf tersebut. Yaitu dengan merubah *background* pada beberapa kata, membuat huruf tebal, huruf miring, dan bergaris bawah.<br>
@@ -111,6 +131,8 @@ Dan berikut adalah hasil dari *source code* diatas : <br>
 
 ![Img - Formated Text on Paragraph](_imageData/formatedText.png)
 
+### Menyisipkan Gambar
+
 4. **Menyisipkan Gambar**
 <br>
 Pada Bagian ketiga, saya ingin menambahkan gambar di file HTML yang telah dibuat, yaitu logo Universitas Pelita Bangsa dengan ukuran 200 x 180 px. <br>
@@ -126,6 +148,8 @@ Berikut *source code* yang saya tambahkan :
 
 Setelah melakukan perubahan, berikut adalah hasilnya. <br>
 ![Img - Add new image on HTML Files](_imageData/addImage.png)
+
+### Menambahkan Hyperlink
 
 5. **Menambahkan Hyperlink**
 <br>
