@@ -83,7 +83,8 @@ Dan akan berubah seperti ini :
 
 3. **Memformat Teks Paragraf**
 <br> 
-Setelah melakukan perataan pada sebuah paragraf, saya akan melakukan modifikasi terhadap paragaf tersebut. Yaitu dengan merubah *background* pada beberapa kata, membuat huruf tebal, huruf miring, dan bergaris bawah.
+Setelah melakukan perataan pada sebuah paragraf, saya akan melakukan modifikasi terhadap paragaf tersebut. Yaitu dengan merubah *background* pada beberapa kata, membuat huruf tebal, huruf miring, dan bergaris bawah.<br>
+Saya telah melakukan perubahan perataan kanan-kiri / *justify* pada Paragraf 1 dan Rata kiri untuk Paragraf kedua.
 <br>
 Berikut perubahan pada *source code* yang telah saya buat pada tag \<body>. :
 
@@ -103,3 +104,18 @@ Berikut perubahan pada *source code* yang telah saya buat pada tag \<body>. :
 Dan berikut adalah hasil dari *source code* diatas : <br>
 
 ![Img - Formated Text on Paragraph](_imageData/formatedText.png)
+
+4. **Menyisipkan Gambar**
+<br>
+Pada Bagian ketiga, saya ingin menambahkan gambar di file HTML yang telah dibuat, yaitu logo Universitas Pelita Bangsa dengan ukuran 200 x 180 px. <br>
+Berikut *source code* yang saya tambahkan : <br>
+
+```
+<h3>Menambahkan Gambar</h3>
+
+<img src="_imageData/upb-logo.png" width="200" height="180px" title="Pelita Bangsa University Logo">
+```
+
+Setelah melakukan perubahan, berikut adalah hasilnya. <br>
+![Img - Add new image on HTML Files](_imageData/addImage.png)
+
