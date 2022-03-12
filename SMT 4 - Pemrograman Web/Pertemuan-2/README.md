@@ -86,6 +86,7 @@ Dan akan berubah seperti ini :
 Setelah melakukan perataan pada sebuah paragraf, saya akan melakukan modifikasi terhadap paragaf tersebut. Yaitu dengan merubah *background* pada beberapa kata, membuat huruf tebal, huruf miring, dan bergaris bawah.
 <br>
 Berikut perubahan pada *source code* yang telah saya buat pada tag \<body>. :
+
 ```
 <!-- judul paragraf pertama -->
 <h1>Belajar Dasar HTML</h1>
@@ -98,5 +99,7 @@ Berikut perubahan pada *source code* yang telah saya buat pada tag \<body>. :
 <!-- Ini adalah paragraf kedua -->
 <p align="left">Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang saling mendukung sehingga menjadi <b>satu kesatuan.</b> <font style="background-color: aqua;">Paragraf dibuat dengan menggunakan tag dasar html.</font></p>
 ```
+
 Dan berikut adalah hasil dari *source code* diatas : <br>
+
 ![Img - Formated Text on Paragraph](_imageData/formatedText.png)
