@@ -121,3 +121,21 @@ Berikut *source code* yang saya tambahkan :
 Setelah melakukan perubahan, berikut adalah hasilnya. <br>
 ![Img - Add new image on HTML Files](_imageData/addImage.png)
 
+5. **Menambahkan Hyperlink**
+<br>
+
+Poin ke-lima saya ingin menambahkan hyperlink pada file HTML yang sudah dibuat. yaitu **Dasar HTML** yang akan menampilkan halaman 2 paragraf belajar Dasar HTML. <br>
+Pada menu / hyperlink **Halaman 2** akan menampilkan *Jawaban pada pertanyaan yang ada pada modul Praktikum* <br>
+Sedangkan pada hyperlink **Halaman Web Eksternal Google** akan menampilkan *Home Page Google Indonesia*  <br>
+*Source code* yang sudah saya tulis sebagai berikut :
+<br>
+
+```
+<div align="center">
+<a href="lab1_tag_dasar.html" style="background-color: greenyellow;">Dasar HTML</a> | <a href="lab1_halaman2.html" style="background-color: aqua;">Halaman 2</a> | <a href="https://google.co.id" style="background-color: silver;">Halaman Web Eksternal Google</a>
+</div>
+<hr>
+```
+
+Dan berikut adalah preview dari *Source code* yang sudah saya edit. <br>
+![Img - Preview Hyperlink on HTML](_imageData/headLink.png)
