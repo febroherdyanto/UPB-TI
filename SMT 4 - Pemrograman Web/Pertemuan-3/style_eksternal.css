@@ -11,6 +11,8 @@ nav a{
 nav .active,
 nav a:hover{
     background: #0b6b3a;
+    font-weight: bold;
+    color: yellow;
 }
 
 /* ID Selector */
@@ -19,6 +21,7 @@ nav a:hover{
     border: 1px solid #099249;
     min-height: 100px;
     padding: 10px;
+    text-align: justify;
 }
 #intro h1{
     text-align: left;
@@ -34,6 +37,7 @@ nav a:hover{
     display: inline-block;
     margin: 10px;
     text-decoration: none;
+    border-radius: 25px;
 }
 .btn-primary{
     background: #e42a42;
