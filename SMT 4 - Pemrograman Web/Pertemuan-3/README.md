@@ -77,3 +77,21 @@ Pada poin kedua ini saya ingin menambahkan CSS Internal pada file HTML yang suda
 Hasil pada source code diatas seperti gambar dibawah ini. <br>
 
 ![Img - CSS Internal on HTML File](imageData/cssinternal.png)
+
+### 3. **Menambahkan CSS Inline**
+
+Poin ketiga ini saya menambahkan css inline pada tag paragraf yang telah dibuat sebelumnya. <br>
+Sebelumnya : <br>
+
+```
+<p>Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>Pemrograman Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML dan CSS.</p>
+```
+
+Menjadi seperti ini <br>
+
+```
+<p style="text-align: center; color: #ccd8e4;">Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>Pemrograman Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML dan CSS.</p>
+```
+
+Berikut perubahan yang akan terjadi : <br>
+![Img - Add CSS Inline on paragraph tag](imageData/inlineCSS.png)
