@@ -126,3 +126,39 @@ kemudian saya juga menambahkan link didalam tag head di file lab2_css_dasar.html
 Berikut tampilan yang akan berubah ketika kita save dan refresh pada halaman web.
 
 ![Img - CSS Eksternal on HTML](imageData/eksternalCSS.png)
+
+### 5. **Menambahkan CSS Selector**
+
+Poin kelima saya ingin menambahkan dan memodifikasi file style_eksternal.css dengan cara mengubah file atau id dan class selector. <br>
+Berikut source code yang telah saya tambahkan pada file css. <br>
+
+```
+/* ID Selector */
+#intro{
+    background: #418fb1;
+    border: 1px solid #099249;
+    min-height: 100px;
+    padding: 10px;
+}
+#intro h1{
+    text-align: left;
+    border: 0;
+    color: #fff;
+}
+
+/* Class Selector */
+.button{
+    padding: 15px 20px;
+    background: #bebcbd;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+.btn-primary{
+    background: #e42a42;
+}
+```
+
+Dan akan berubah seperti tampilan berikut : <br>
+![Img - ID and Class Selector CSS](imageData/idclass.png)
