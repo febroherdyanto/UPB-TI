@@ -95,3 +95,34 @@ Menjadi seperti ini <br>
 
 Berikut perubahan yang akan terjadi : <br>
 ![Img - Add CSS Inline on paragraph tag](imageData/inlineCSS.png)
+
+### 4. **Membuat CSS Eksternal**
+
+Poin keempat, saya melakukan update pada ektsernal css. Yaitu dengan memberikan warna pada navbar dengan nama file **style_eksternal.css** . Berikut adalah source code pada file css eksternal.<br>
+
+```
+nav{
+    background: #20a759;
+    color: #fff;
+    padding: 10px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav .active,
+nav a:hover{
+    background: #0b6b3a;
+}
+```
+
+kemudian saya juga menambahkan link didalam tag head di file lab2_css_dasar.html. Berikut source code nya : <br>
+
+```
+<link rel="stylesheet" href="style_eksternal.css" type="text/css">
+```
+
+Berikut tampilan yang akan berubah ketika kita save dan refresh pada halaman web.
+
+![Img - CSS Eksternal on HTML](imageData/eksternalCSS.png)
