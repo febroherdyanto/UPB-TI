@@ -286,3 +286,7 @@ nav a:hover{
 Berikut adalah tampilan ketika telah saya modifikasi : <br>
 
 ![Img - Modified](imageData/edited.png)
+
+> 2. Perbedaan pada deklarasi h1{...} adalah untuk memodifikasi dalam tag h1 umum atau bisa dipakai pada tag header. Sedangkan #intro h1{...} untuk memodifikasi pada heading 1 yang terdapat didalam tag intro. <br>
+> 3. CSS Internal yang akan dibaca dan ditampilkan pertama kali pada browser. Karena dalam proses / urutan HTML letak pada css internal terdapat pada bagian head, dimana tag head akan di proses pertama oleh browser pada file HTML. <br>
+> 4. 
