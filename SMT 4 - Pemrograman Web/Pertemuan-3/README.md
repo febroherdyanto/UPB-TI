@@ -49,3 +49,31 @@ Hasil pada source code tersebut adalah seperti gambar dibawah ini : <br>
 
 ![Img - Create HTML File](imageData/createHTML.png)
 
+### 2. **Mendeklarasikan CSS Internal**
+
+Pada poin kedua ini saya ingin menambahkan CSS Internal pada file HTML yang sudah dibuat. Yaitu dengan menambahkan tag css didalam tag head. Source code yang dibuat adalah seperti berikut : <br>
+
+```
+    <style>
+        body{
+            font-family: "Open Sans", sans-serif;
+        }
+        header{
+            min-height: 80px;
+            border-bottom: 1px, solid #77ccef;
+        }
+        h1{
+            font-size: 24px;
+            color: #0f189f;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        h1 i{
+            color: #6d6a6b;
+        }
+    </style>
+```
+
+Hasil pada source code diatas seperti gambar dibawah ini. <br>
+
+![Img - CSS Internal on HTML File](imageData/cssinternal.png)
