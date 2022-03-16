@@ -9,7 +9,11 @@
 
 <hr>
 
-Pada repository ini saya akan melanjutkan tugas mengenai CSS Dasar, pada langkah awal, saya membuat file HTML yang berisi source code seperti berikut : <br>
+Pada repository ini saya akan melanjutkan tugas mengenai CSS Dasar. <br>
+
+### 1. **Membuat Dokumen HTML**
+<br>
+Pada langkah awal, saya membuat file HTML yang berisi source code seperti berikut : <br>
 
 ```
 <!DOCTYPE html>
