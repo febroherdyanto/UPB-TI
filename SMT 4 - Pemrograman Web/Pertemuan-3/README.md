@@ -288,12 +288,25 @@ Berikut adalah tampilan ketika telah saya modifikasi : <br>
 ![Img - Modified](imageData/edited.png)
 
 > 2. Perbedaan pada deklarasi h1{...} adalah untuk memodifikasi dalam tag h1 umum atau bisa dipakai pada tag header. Sedangkan #intro h1{...} untuk memodifikasi pada heading 1 yang terdapat didalam tag intro. <br>
-> 3. CSS Internal yang akan dibaca dan ditampilkan pertama kali pada browser. Karena dalam proses / urutan HTML letak pada css internal terdapat pada bagian head, dimana tag head akan di proses pertama oleh browser pada file HTML. <br>
+> 3. CSS Inline yang akan dibaca dan ditampilkan pertama kali pada browser. Karena CSS Inline lebih ringan ditampilkan dalam sebuah file HTML. <br>
 > 4. Setelah saya melakukan percobaan menggunakan deklarasi ID dan Class pada sebuah tag HTML dan CSS. Deklarasi yang akan ditampilkan adalah deklarasi ID. Berikut saya memberikan contoh <br>
 
 Saya menambahkan tag HTML seperti dibawah ini pada file lab2_css_dasar.html
 
 ```
+<style>
+        .cprg{
+            color: red;
+            background-color: cyan;
+            font-weight: bold;
+        }
+        #prg{
+            color: #0f189f;
+            background-color: yellow;
+        }
+</style>
+
+
     <div class="cprg" id="prg">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos modi ipsam veritatis? Eius, voluptatum inventore? Aliquid, aperiam numquam illo molestiae nemo magni ipsum aliquam ea perferendis, ab earum eos ducimus.</p>
     </div>
