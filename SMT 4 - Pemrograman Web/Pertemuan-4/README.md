@@ -249,3 +249,26 @@ Setelah file tersebut disimpan dan dibuka, akan menampilkan output seperti berik
 ![Img - Create Forms in HTML](imageData/createForm.png)
 
 * **Modifikasi Tampilan Form** <br>
+Form pada HTML telah saya buat dilangkah sebelumnya, kali ini saya ingin memodifikasi form tersebut agar lebih menarik ketika dilihat oleh user. Saya menambahkan beberapa tag CSS. Berikut adalah source code CSS. <br>
+
+```
+    <style>
+        form p > label{
+            display: inline-block;
+            width: 100px;
+        }
+        form input[type="text"], form textarea{
+            border: 1px solid #197a43;
+        }
+        form input[type="submit"]{
+            border: 1px solid #197a43;
+            background-color: #197a43;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 5px 15px;
+        }
+    </style>
+```
+
+Setelah css berhasil disimpan, dan saya akan mengeksekusi file HTML form lagi, akan menghasilkan output seperti berikut. <br>
+![Img - Modify Form HTML](imageData/modifyForms.png)
