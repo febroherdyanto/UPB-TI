@@ -83,3 +83,27 @@ Setelah melakukan save pada file HTML, hasil eksekusi file tersebut akan menampi
 
 ![Img - Unordered List HTML](imageData/UL.png)
 
+### **Description List**
+
+3. **Description List** <br>
+Langkah berikutnya, kami diminta untuk membuat tag HTML, yaitu Description List. Saya menambahkan beberapa syntax HTML pada file **lab3_list.html** <br>
+
+```
+    <section id="desc-list">
+        <h2>Description List</h2>
+        <dl>
+            <dt>Fakultas Teknik</dt>
+                <dd>Teknik Industri</dd>
+                <dd>Teknik Informatika</dd>
+                <dd>Teknik Lingkungan</dd>
+            <dt>Fakultas Ekonomi dan Bisnis</dt>
+                <dd>Akuntansi</dd>
+                <dd>Manajemen</dd>
+                <dd>Bisnis Digital</dd>
+        </dl>
+    </section>
+```
+
+Hasil eksekusi dari syntax terbaru Description List yang saya buat, akan menampilkan output seperti berikut :
+
+![Img - Description List](imageData/DL.png)
