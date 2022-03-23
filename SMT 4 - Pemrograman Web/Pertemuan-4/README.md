@@ -107,3 +107,58 @@ Langkah berikutnya, kami diminta untuk membuat tag HTML, yaitu Description List.
 Hasil eksekusi dari syntax terbaru Description List yang saya buat, akan menampilkan output seperti berikut :
 
 ![Img - Description List](imageData/DL.png)
+
+### **Table**
+
+* **Membuat Table** <br>
+Setelah mengenal beberapa macam list yang digunakan pada HTML, selanjutnya saya akan membahas mengenai **Table** pada file HTML. <br>
+Saya akan membuat file HTML baru dengan nama **lab3_tabel.html** , kemudian saya isi source code HTML seperti berikut. <br>
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+
+    <header>
+        <h1>Membuat Table</h1>
+    </header>
+
+    <table border="1" cellpadding="4" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Fakultas</th>
+                <th>Program Studi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Teknik</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Teknik</td>
+                <td>Teknik Industri</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Teknik</td>
+                <td>Teknik Lingkungan</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+```
+
+Penjelasan pada source code diatas adalah untuk membuat table harus diawali dengan tag HTML \<table> dan diakhiri oleh \</table>. Sedangkan saya mengatur margin dan padding pada cell data, yaitu dengan menambahkan atribut **cellpadding="4"** dan **cellspacing="0"**. Dan akan menghasilkan output seperti berikut. <br>
+![Img - Table HTML](imageData/table.png)
