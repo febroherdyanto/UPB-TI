@@ -162,3 +162,38 @@ Saya akan membuat file HTML baru dengan nama **lab3_tabel.html** , kemudian saya
 
 Penjelasan pada source code diatas adalah untuk membuat table harus diawali dengan tag HTML \<table> dan diakhiri oleh \</table>. Sedangkan saya mengatur margin dan padding pada cell data, yaitu dengan menambahkan atribut **cellpadding="4"** dan **cellspacing="0"**. Dan akan menghasilkan output seperti berikut. <br>
 ![Img - Table HTML](imageData/table.png)
+
+
+* **Table - Menggabungkan Sel Data** <br>
+Setelah membuat table pada HTML selesai, kali ini saya akan membuat modul untuk menggabungkan baris pada table tersebut. Disini saya menggunakan tag **rowspan**. Rowspan digunakan untuk menggabungkan beberapa baris pada table HTML. Selain rowspan, saya juga melakukan perubahan pada *cellpadding* menjadi 6. Berikut source code yang saya ubah. <br>
+
+```
+    <table border="1" cellpadding="6" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Fakultas</th>
+                <th>Program Studi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td rowspan="3">Teknik</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Teknik Industri</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Teknik Lingkungan</td>
+            </tr>
+        </tbody>
+    </table>
+```
+
+Setelah source code tersebut di eksekusi, akan menampilkan output sebagai berikut. <br>
+![Img - Rowspan Attribute HTML](imageData/rowspan.png)
+
