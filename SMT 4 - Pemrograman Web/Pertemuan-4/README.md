@@ -26,6 +26,8 @@
 
 ## `Uraian Tugas`
 
+### **Ordered List**
+
 1. **Ordered List** <br>
 Sesuai dengan tugas yang berikan oleh Dosen Mata Kuliah Pemrograman Web, pada poin pertama kami diminta untuk membuat Tag HTML yaitu **Ordered List** . Saya menuliskan syntax berikut pada file *lab3_list.html* <br>
 
@@ -60,4 +62,24 @@ Sesuai dengan tugas yang berikan oleh Dosen Mata Kuliah Pemrograman Web, pada po
 Hasil eksekusi dari file HTML tersebut akan menampilkan output sebagai berikut : <br>
 
 ![Img - Tag Ordered List HTML](imageData/OL.png)
+
+### **Unordered List**
+
+2. **Unordered List** <br>
+Setelah melakukan percobaan pada ordered list, pada poin kedua ini kami diminta untuk membuat tag HTML unordered list. Pada file *lab3_list.html* saya menambahkan beberapa syntax, bisa dilihat seperti berikut : <br>
+
+```
+    <section id="unorder-list">
+        <h2>Unordered List</h2>
+        <ul type="square">
+            <li>Jaringan Komputer</li>
+            <li>Struktur Data</li>
+            <li>Algoritma dan Pemrograman</li>
+        </ul>
+    </section>
+```
+
+Setelah melakukan save pada file HTML, hasil eksekusi file tersebut akan menampilkan output seperti : <br>
+
+![Img - Unordered List HTML](imageData/UL.png)
 
