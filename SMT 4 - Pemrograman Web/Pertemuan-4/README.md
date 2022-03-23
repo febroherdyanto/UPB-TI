@@ -282,3 +282,110 @@ Setelah css berhasil disimpan, dan saya akan mengeksekusi file HTML form lagi, a
 
 ## Jawaban
 
+> Saya akan menambahkan dropdown menu dan listbox dengan multiple selection. Selain itu akan memodifikasi file HTML yang telah saya buat sebelumnya. <br>
+> Perubahan perubahan yang saya lakukan adalah : 
+> * Menambahkan Logo
+> * Menambahkan Place Holder pada input text dan textarea
+> * Membuat Select List Box
+> * Membuat Select Menu Dropdown
+> * Menambahkan Button Reset
+> * Mengganti Backgroud Color pada fieldset <br>
+> 
+> Source code : <br>
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+
+    <style>
+        form p > label{
+            display: inline-block;
+            width: 150px;
+        }
+        form input[type="text"], form textarea, form select{
+            border: 1px solid #197a43;
+            width: 250px;
+        }
+        form input[type="submit"]{
+            border: 1px solid #197a43;
+            background-color: #197a43;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 5px 15px;
+        }
+        form input[type="reset"]{
+            border: 1px solid #b82839;
+            background-color: #b82839;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 5px 15px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header style="text-align: center; color: #3a6cc2; font-family: Arial, Helvetica, sans-serif;">
+        <table align="center">
+            <tr>
+                <td><img src="imageData/logo-upb.png" width="60px" height="50px"></td>
+                <td><h1>Membuat Form Login Pelanggan</h1></td>
+            </tr>
+        </table>
+        
+    </header>
+
+    <form action="proses.php" method="post" style="background-color: #c1ced6">
+        <fieldset>
+            <legend style="background-color: #e1e5e8;"><b>Data Pelanggan</b></legend>
+            <p>
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan Nama">
+            </p>
+            <p>
+                <label for="alamat">Alamat</label>
+                <textarea id="alamat" name="alamat" cols="20" rows="3" placeholder="Masukkan Alamat Pelanggan"></textarea>
+            </p>
+            <p>
+                <label>Jenis Kelamin</label>
+                <input type="radio" id="jk_l" name="kelamin" value="L">
+                    <label for="jk_l">Laki-Laki</label>
+                <input type="radio" id="jk_p" name="kelamin" value="P">
+                    <label for="jk_p">Perempuan</label>
+            </p>
+            <p>
+                <label for="status">Status User</label>
+                <select name="status" size="3" id="status" multiple="multiple">  
+                    <option value="Admin"> Admin </option>  
+                    <option value="Pembeli"> Pembeli </option>  
+                    <option value="Tamu"> Tamu </option>
+                </select>  
+            </p>
+            <p>
+                <label for="provinsi">Provinsi</label>
+                <select name="provinsi" id="provinsi">
+                    <option selected>Pilih Provinsi</option>
+                    <option value="Jakarta">DKI Jakarta</option>
+                    <option value="JawaBarat">Jawa Barat</option>
+                    <option value="JawaTengah">Jawa Tengah</option>
+                    <option value="Yogyakarta">Yogyakarta</option>
+                    <option value="JawaTimur">Jawa Timur</option>
+                </select>
+            </p>
+            <p>
+                <input type="reset" value="Reset"> 
+                <input type="submit" value="Login">
+            </p>
+        </fieldset>
+    </form>
+
+</body>
+</html>
+```
+
+Setelah semua perubahan disimpan dan dilakukan eksekusi, berikut output yang akan ditampilkan. <br>
+![Img - Result of Question](imageData/result.png)
