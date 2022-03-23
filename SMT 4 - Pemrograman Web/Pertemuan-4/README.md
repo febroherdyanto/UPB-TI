@@ -197,3 +197,55 @@ Setelah membuat table pada HTML selesai, kali ini saya akan membuat modul untuk 
 Setelah source code tersebut di eksekusi, akan menampilkan output sebagai berikut. <br>
 ![Img - Rowspan Attribute HTML](imageData/rowspan.png)
 
+### **Forms**
+
+* **Membuat Form** <br>
+Pada poin ini saya akan membuat tutorial sederhana mengenai pembuatan form pada HTML. Disini saya akan membuat file baru dengan nama **lab3_form.html** dan mengisikan beberapa source code. <br>
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Membuat Form</h1>
+    </header>
+
+    <form action="proses.php" method="post">
+        <fieldset>
+            <legend>Data Pelanggan</legend>
+            <p>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama">
+            </p>
+            <p>
+                <label for="alamat">Alamat</label>
+                <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+            </p>
+            <p>
+                <label>Jenis Kelamin</label>
+                <input type="radio" id="jk_l" name="kelamin" value="L">
+                    <label for="jk_l">Laki-Laki</label>
+                <input type="radio" id="jk_p" name="kelamin" value="P">
+                    <label for="jk_p">Perempuan</label>
+            </p>
+            <p>
+                <input type="submit" value="Login">
+            </p>
+        </fieldset>
+    </form>
+
+</body>
+</html>
+```
+
+Setelah file tersebut disimpan dan dibuka, akan menampilkan output seperti berikut. <br>
+![Img - Create Forms in HTML](imageData/createForm.png)
+
+* **Modifikasi Tampilan Form** <br>
