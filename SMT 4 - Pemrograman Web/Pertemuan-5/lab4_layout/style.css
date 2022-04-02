@@ -45,3 +45,19 @@ nav a.active,
 nav a:hover {
     background-color: #2b83ea;
 }
+
+/* Hero Panel */
+#hero {
+    background-color: #e4e4e5;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+#hero h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+#hero p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}

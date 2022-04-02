@@ -18,6 +18,7 @@
 | 2 | Menambahkan CSS Pada Home | [Click Here](#menambahkan-css-pada-home) |
 | 3 | Membuat Navigasi | [Click Here](#membuat-navigasi) |
 | 4 | Membuat Hero Panel | [Click Here](#membuat-hero-panel) |
+| 5 | Mengatur Layout Main dan Sidebar | [Click Here](#mengatur-layout-main--sidebar) |
 
 
 ## `Uraian Tugas`
@@ -138,3 +139,41 @@ Hasil dari file tersebut kan seperti dibawah ini. <br>
 
 ### **Membuat Hero Panel**
 
+Untuk membuat hero panel saya akan menambahkan beberapa syntax pada section id hero.
+
+```
+    <section id="hero">
+        <h1>Hello World!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem elit, iaculis innisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
+        <a href="home.html" class="btn btn-large">Learn more &raquo;</a>
+    </section>
+```
+
+Output dari isi section hero seperti berikut. <br>
+![Img - Hero Section](imgData/HeroBlank.png)
+
+**Mempercantik Tampilan Hero Panel** <br>
+Tampilan diatas terlalu polos, saya akan memberikan beberapa syntax css.
+
+```
+/* Hero Panel */
+#hero {
+    background-color: #e4e4e5;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+#hero h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+#hero p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}
+```
+
+Hasil dari CSS akan menampilkan seperti berikut <br>
+![Img - Add Hero CSS](imgData/HeroCSS.png)
+
+### **Mengatur Layout Main & Sidebar**
