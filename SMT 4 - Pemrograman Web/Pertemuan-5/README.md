@@ -15,8 +15,8 @@
 
 | No | Judul | Link |
 | --- | --- | --- |
-| 1 | Membuat Box Element | [Click Here](#ordered-list) |
-| 2 | Unordered List | [Click Here](#unordered-list) |
+| 1 | Membuat Box Element | [Click Here](#membuat-box-element) |
+| 2 | Menambahkan CSS Float Property | [Click Here](#menambahkan-css-float-property) |
 
 ## `Uraian Tugas`
 
@@ -52,3 +52,27 @@ Disini saya akan menjelaskan tentang cara membuat box element. Saya akan membuat
 Hasil dari code tersebut akan memberikan output seperti dibawah ini : <br>
 ![Image Box Elenet](imageData/BoxElement.png) <br>
 
+### **Menambahkan CSS Float Property**
+
+Tampilan diatas adalah tampilan dasar, sehingga kita harus menambahkan beberapa css untuk mempercantik tampilannya. Dengan itu saya menambahkan beberapa syntax css, berikut code-nya. 
+
+```
+    <style>
+        div {
+        float:left;
+        padding: 10px;
+        }
+        .div1 {
+        background: red;
+        }
+        .div2 {
+        background: yellow;
+        }
+        .div3 {
+        background: green;
+        }
+    </style>
+```
+
+Setelah css ditambahkan, berikut adalah hasil tampilannya. <br>
+![Image - Add CSS Float](imageData/AddCSSFloat.png)
