@@ -61,3 +61,19 @@ nav a:hover {
     font-size: 18px;
     line-height: 25px;
 }
+
+/* main content */
+#wrapper {
+    margin: 0;
+}
+#main {
+    float: left;
+    width: 640px;
+    padding: 20px;
+}
+/* sidebar area */
+#sidebar {
+    float: left;
+    width: 260px;
+    padding: 20px;
+}

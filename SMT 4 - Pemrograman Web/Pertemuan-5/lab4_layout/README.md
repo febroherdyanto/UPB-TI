@@ -19,6 +19,7 @@
 | 3 | Membuat Navigasi | [Click Here](#membuat-navigasi) |
 | 4 | Membuat Hero Panel | [Click Here](#membuat-hero-panel) |
 | 5 | Mengatur Layout Main dan Sidebar | [Click Here](#mengatur-layout-main--sidebar) |
+| 6 | Membuat Sidebar Widget | [Click Here](#membuat-sidebar-widget) |
 
 
 ## `Uraian Tugas`
@@ -177,3 +178,28 @@ Hasil dari CSS akan menampilkan seperti berikut <br>
 ![Img - Add Hero CSS](imgData/HeroCSS.png)
 
 ### **Mengatur Layout Main & Sidebar**
+
+Pada poin ini saya akan mengatur layout main dan sidebar dengan menambahkan beberapa syntax CSS.
+
+```
+/* main content */
+#wrapper {
+    margin: 0;
+}
+#main {
+    float: left;
+    width: 640px;
+    padding: 20px;
+}
+/* sidebar area */
+#sidebar {
+    float: left;
+    width: 260px;
+    padding: 20px;
+}
+```
+
+Berikut Hasilnya <br>
+![Img - Setting Main Layout and Sidebar](imgData/SetLayoutMainSidebar.png)
+
+### **Membuat Sidebar Widget**
