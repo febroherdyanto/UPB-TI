@@ -22,6 +22,7 @@
 | 6 | Membuat Sidebar Widget | [Click Here](#membuat-sidebar-widget) |
 | 7 | Mengatur Footer | [Click Here](#mengatur-footer) |
 | 8 | Menambahkan Elemen pada Main Content | [Click Here](#menambahkan-element-pada-main-content) |
+| 9 | Menambahkan Content Artikel | [Click Here](#menambahkan-content-artikel) |
 
 
 ## `Uraian Tugas`
@@ -289,4 +290,93 @@ Hasil dari code tersebut adalah. <br>
 ![Img - Modify Footer](imgData/ModifyFooter.png)
 
 ### **Menambahkan Element pada Main Content**
+
+Disini saya akan mengisi main content di halaman Home. Berikut syntax HTML yang saya masukkan.
+
+```
+        <section id="main">
+            <div class="row">
+                <div class="box">
+                    <img src="https://dummyimage.com/120/db7d25/fff.png" alt=""
+                    class="image-circle">
+                    <h3>Heading</h3>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                    euismod.</p>
+                    <a href="#" class="btn btn-default">View detail</a>
+                </div>
+                <div class="box">
+                    <img src="https://dummyimage.com/120/3e73e6/fff.png" alt=""
+                    class="image-circle">
+                    <h3>Heading</h3>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                    euismod.</p>
+                    <a href="#" class="btn btn-default">View detail</a>
+                </div>
+                <div class="box">
+                    <img src="https://dummyimage.com/120/71e6d4/fff.png" alt=""
+                    class="image-circle">
+                    <h3>Heading</h3>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                    euismod.</p>
+                    <a href="#" class="btn btn-default">View detail</a>
+                </div>
+            </div>
+        </section>
+```
+
+Hasil dari beberapa syntaxt HTML yang ditambahkan akan memberikan output seperti berikut. <br>
+![Img - Add Main Content](imgData/MainContent-Blank.png)
+
+**Memodifikasi Tampilan Main Content**
+
+Hasil dari tampilan diatas terlalu polos, maka dari itu saya ingin memodifikasinya. Saya menambahkan beberapa syntax CSS. 
+
+```
+/* box */
+.box {
+    display:block;
+    float:left;
+    width:33.333333%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    padding:0 10px;
+    text-align:center;
+}
+.box h3 {
+    margin: 15px 0;
+}
+.box p {
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+box img {
+    border: 0;
+    vertical-align: middle;
+}
+.image-circle {
+    border-radius: 50%;
+}
+.row {
+    margin: 0 -10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.row:after, .row:before,
+.entry:after, .entry:before {
+    content:'';
+    display:table;
+}
+.row:after,
+.entry:after {
+    clear:both;
+}
+```
+
+Hasil dari menambahkan syntax CSS tersebut adalah seperti dibawah ini. <br>
+![Img - Modify Main Content with CSS](imgData/MainContent-CSS.png)
+
+### **Menambahkan Content Artikel**
 
