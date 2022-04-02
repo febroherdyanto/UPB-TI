@@ -23,6 +23,8 @@
 | 7 | Mengatur Footer | [Click Here](#mengatur-footer) |
 | 8 | Menambahkan Elemen pada Main Content | [Click Here](#menambahkan-element-pada-main-content) |
 | 9 | Menambahkan Content Artikel | [Click Here](#menambahkan-content-artikel) |
+| 10 | Pertanyaan dan Tugas | [Click Here](#pertanyaan-dan-tugas) |
+| 11 | Jawaban dari Tugas | [Click Here](#jawaban-dari-tugas) |
 
 
 ## `Uraian Tugas`
