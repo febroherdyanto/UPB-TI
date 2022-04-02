@@ -14,9 +14,9 @@
 
 | No | Judul | Link |
 | --- | --- | --- |
-| 1 | Membuat Box Element | [Click Here](#membuat-box-element) |
-| 2 | Menambahkan CSS Float Property | [Click Here](#menambahkan-css-float-property) |
-| 3 | Mengatur Clearfix Element | [Click Here](#mengatur-clearfix-element) |
+| 1 | Membuat HTML File | [Click Here](#membuat-file-html) |
+| 2 | Menambahkan CSS Pada Home | [Click Here](#menambahkan-css-pada-home) |
+| 3 | Membuat Navigasi | [Click Here](#membuat-navigasi) |
 
 
 ## `Uraian Tugas`
@@ -62,3 +62,50 @@ Langkah pertama dalam **Layout Sederhana** saya akan membuat file HTML dengan na
 
 Hasil dari syntax tersebut adalah seperti dibawah ini. <br>
 ![Img - Create HTML for Layout Sederhana](imgData/createHTML.png)
+
+### **Menambahkan CSS Pada Home**
+
+Setelah file HTML berhasil dibuat, maka saya akan menambahkan css untuk mempercantiknya. Dengan cara membuat file CSS : *style.css* dengan beberapa syntax seperti dibawah ini.
+
+```
+/* import google font */
+@import
+url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    line-height:1;
+    font-size:100%;
+    font-family:'Open Sans', sans-serif;
+    color:#5a5a5a;
+}
+#container {
+    width: 980px;
+    margin: 0 auto;
+    box-shadow: 0 0 1em #cccccc;
+}
+/* header */
+header {
+    padding: 20px;
+}
+header h1 {
+    margin: 20px 10px;
+    color: #b5b5b5;
+}
+```
+
+Dan menambahkan tag untuk import css ke file HTML, yaitu :
+
+```
+<link rel="stylesheet" href="style.css">
+```
+
+Dan akan menampilkan output seperti berikut. <br>
+![Img - Import CSS to Home Page](imgData/addCSSonHome.png)
+
+### **Membuat Navigasi**
