@@ -11,12 +11,17 @@
 
 <hr>
 
+## `Pindah ke Layout Sederhana : ` [Klik Disini](lab4_layout)
+
+
 ## Daftar Isi
 
 | No | Judul | Link |
 | --- | --- | --- |
 | 1 | Membuat Box Element | [Click Here](#membuat-box-element) |
 | 2 | Menambahkan CSS Float Property | [Click Here](#menambahkan-css-float-property) |
+| 3 | Mengatur Clearfix Element | [Click Here](#mengatur-clearfix-element) |
+
 
 ## `Uraian Tugas`
 
@@ -76,3 +81,25 @@ Tampilan diatas adalah tampilan dasar, sehingga kita harus menambahkan beberapa 
 
 Setelah css ditambahkan, berikut adalah hasil tampilannya. <br>
 ![Image - Add CSS Float](imageData/AddCSSFloat.png)
+
+### **Mengatur Clearfix Element**
+
+Disini saya ingin menambahkan 1 element div-4, dengan code seperti berikut.
+
+```
+<div class="div4">Div 4</div>
+```
+
+Dan beberapa syntax css-nya. 
+
+```
+.div4 {
+    background-color: blue;
+    clear: left;
+    float: none;
+}
+```
+
+Berikut tampilan ketika semua sudah disimpan. <br>
+![Image - Add Clearfix Element on DIV-4](imageData/ClearfixElement.png)
+
