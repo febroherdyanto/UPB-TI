@@ -11,7 +11,7 @@
 
 <hr>
 
-## `Pindah ke Layout Sederhana : ` [Klik Disini](lab4_layout)
+## `Pindah ke Layout Sederhana : ` [Klik Disini](lab4_layout/)
 
 
 ## Daftar Isi
