@@ -107,3 +107,11 @@ nav a:hover {
     padding:15px;
     line-height:25px;
 }
+
+/* footer */
+footer {
+    clear:both;
+    background-color:#1d1d1d;
+    padding:20px;
+    color:#eee;
+}

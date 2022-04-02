@@ -21,6 +21,7 @@
 | 5 | Mengatur Layout Main dan Sidebar | [Click Here](#mengatur-layout-main--sidebar) |
 | 6 | Membuat Sidebar Widget | [Click Here](#membuat-sidebar-widget) |
 | 7 | Mengatur Footer | [Click Here](#mengatur-footer) |
+| 8 | Menambahkan Elemen pada Main Content | [Click Here](#menambahkan-element-pada-main-content) |
 
 
 ## `Uraian Tugas`
@@ -271,4 +272,21 @@ Berikut tampilan dari css tersebut. <br>
 ![Img - Add CSS on Sidebar Widget](imgData/SidebarWidget-CSS.png)
 
 ### **Mengatur Footer**
+
+Dari footer yang telah dibuat sebelumnya, saya ingin membuat background pada footer tersebut, maka dari itu saya menambahkan beberapa syntax CSS.
+
+```
+/* footer */
+footer {
+    clear:both;
+    background-color:#1d1d1d;
+    padding:20px;
+    color:#eee;
+}
+```
+
+Hasil dari code tersebut adalah. <br>
+![Img - Modify Footer](imgData/ModifyFooter.png)
+
+### **Menambahkan Element pada Main Content**
 
