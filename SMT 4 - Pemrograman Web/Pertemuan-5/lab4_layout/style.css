@@ -62,6 +62,23 @@ nav a:hover {
     line-height: 25px;
 }
 
+/* Hero Panel About */
+#hero-about {
+    background-color: #e4e4e5;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+#hero-about h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+#hero-about p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
 /* main content */
 #wrapper {
     margin: 0;

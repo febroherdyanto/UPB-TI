@@ -444,3 +444,15 @@ Disini saya ingin mengubah tampilan content artikel dengan CSS. Berikut syntax C
 
 Setelah dilakukan simpan pada file CSS, berikut adalah hasilnya.
 ![Img - Modify Content Article with CSS](imgData/ContentArtikel-CSS.png)
+
+## **Pertanyaan dan Tugas**
+
+> 1. Tambahkan Layout untuk menu About <br>
+>    => buat single layout yang berisi deskripsi, portfolio, dll <br>
+> 2. Tambahkan layout untuk menu Contact <br>
+>    => yang berisi form isian: nama, email, message, dll <br>
+
+## **Jawaban dari Tugas**
+
+1. Saya telah membuat file **about.html** dan melakukan perubahan sesuai permintaan dosen, yaitu berisi tentang deskripsi dan portfolio saya dalam membuat Website. Berikut tampilan yang telah tersedia. <br>
+![Img - Answer No 1 - About Page](imgData/about.png)
