@@ -17,6 +17,7 @@
 | 1 | Membuat HTML File | [Click Here](#membuat-file-html) |
 | 2 | Menambahkan CSS Pada Home | [Click Here](#menambahkan-css-pada-home) |
 | 3 | Membuat Navigasi | [Click Here](#membuat-navigasi) |
+| 4 | Membuat Hero Panel | [Click Here](#membuat-hero-panel) |
 
 
 ## `Uraian Tugas`
@@ -109,3 +110,31 @@ Dan akan menampilkan output seperti berikut. <br>
 ![Img - Import CSS to Home Page](imgData/addCSSonHome.png)
 
 ### **Membuat Navigasi**
+
+Saya akan mempercantik tampilan Navigasi menggunakan CSS. Berikut syntax yg saya masukkan.
+
+```
+/* navigasi */
+nav {
+    display: block;
+    background-color: #1f5faa;
+}
+nav a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a.active,
+nav a:hover {
+    background-color: #2b83ea;
+}
+```
+
+Hasil dari file tersebut kan seperti dibawah ini. <br>
+![Img - Change Navigation Style](imgData/CSSNavigation.png)
+
+### **Membuat Hero Panel**
+

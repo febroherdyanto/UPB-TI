@@ -27,3 +27,21 @@ header h1 {
     margin: 20px 10px;
     color: #b5b5b5;
 }
+
+/* navigasi */
+nav {
+    display: block;
+    background-color: #1f5faa;
+}
+nav a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a.active,
+nav a:hover {
+    background-color: #2b83ea;
+}
