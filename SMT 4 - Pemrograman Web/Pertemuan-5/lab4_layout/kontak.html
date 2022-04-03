@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Layout Sederhana</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        form input[type="text"], form input[type="email"], form input[type="tel"]{
+            width: 300px;
+            height: 20px;
+            padding: 6px;
+            margin: 3px;
+            color: blue;
+        }
+        form textarea{
+            width: 300px;
+            height: 60px;
+            padding: 6px;
+            margin: 3px;
+            color: blue;
+        }
+        #simpan{
+            border: 1px solid #3c63c7;
+            background-color: #3c63c7;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 10px 25px;
+            border-radius: 5%;
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <header>
+        <h1 style="font-weight: bold; text-align: center;">Pemrograman Web - <font style="color: blue;">Febro Herdyanto</font></h1>
+    </header>
+    <nav>
+        <a href="home.html"><i class="fa fa-home"></i> Home</a>
+        <a href="artikel.html"><i class="fa fa-book"></i> Artikel</a>
+        <a href="about.html"><i class="fa fa-address-card"></i> About</a>
+        <a href="kontak.html" class="active"><i class="fa fa-phone"></i> Kontak</a>
+    </nav>
+    <section id="wrapper">
+        <section id="" style="float: left; padding: 20px;">
+            <h1 style="font-weight: bold; font-size: 35px;">Contact Us</h1>
+            <hr  style="border:0; border-top:1px solid #d4d3e8; margin:20px 0;">
+
+            <table>
+                <tr>
+                    <td width="50%" style="vertical-align: top;">
+                        <center>
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle-thin fa-stack-2x" style="color: #3c63c7"></i>
+                            <i class="fa fa-twitter fa-stack-1x" style="color: #3c63c7;"></i>
+                        </span>
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle-thin fa-stack-2x" style="color: #3c63c7"></i>
+                            <i class="fa fa-facebook fa-stack-1x" style="color: #3c63c7"></i>
+                        </span>
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle-thin fa-stack-2x" style="color: #3c63c7"></i>
+                            <i class="fa fa-linkedin fa-stack-1x" style="color: #3c63c7"></i>
+                        </span>
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle-thin fa-stack-2x" style="color: #3c63c7"></i>
+                            <i class="fa fa-instagram fa-stack-1x" style="color: #3c63c7"></i>
+                        </span>
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle-thin fa-stack-2x" style="color: #3c63c7"></i>
+                            <i class="fa fa-github fa-stack-1x" style="color: #3c63c7"></i>
+                        </span>
+                        </center>
+                        <br>
+                        <p style="color: #bababf; text-align: justify;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum autem, nam obcaecati debitis iusto vel recusandae consequuntur distinctio doloribus cum praesentium dolorum dignissimos nemo ea numquam at esse voluptatem aliquid sequi quod aut odio modi illo tempora. Quam in maiores nihil eos aliquid ut. Deserunt temporibus incidunt delectus iste optio cum ea in, est impedit similique, quis, possimus quisquam harum. Consequuntur cupiditate modi totam ad magni provident alias aspernatur qui.</p>
+
+                    </td>
+                    <td width="5%">&nbsp;</td>
+                    <td width="40%">
+                        <div class="row">
+                            <form method="pos" action="">
+                                <input type="text" id="nama" class="nama" name="nama" placeholder="Nama">
+                                    <br>
+                                <input type="email" id="email" class="email" name="email" placeholder="Email">
+                                    <br>
+                                <input type="tel" id="telp" class="telp" name="telp" placeholder="Telepon">
+                                    <br>
+                                <textarea name="pesan" placeholder="Pesan"></textarea>
+                                    <br>
+                                <button type="submit" id="simpan" name="simpan"><i class="fa fa-save"></i> &nbsp;&nbsp;Kirim</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+        </section>
+    </section>
+    <footer>
+        <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+    </footer>
+</div>
+    
+</body>
+</html>

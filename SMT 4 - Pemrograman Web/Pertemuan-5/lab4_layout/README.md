@@ -458,3 +458,9 @@ Setelah dilakukan simpan pada file CSS, berikut adalah hasilnya.
 
 1. Saya telah membuat file **about.html** dan melakukan perubahan sesuai permintaan dosen, yaitu berisi tentang deskripsi dan portfolio saya dalam membuat Website. Berikut tampilan yang telah tersedia. <br>
 ![Img - Answer No 1 - About Page](imgData/about.png)
+
+<br>
+
+2. Saya telah membuat file **kontak.html** dan melakukan perubahan sesuai dengan permintaan dosen, yaitu berisi tentang Forms Nama, Email, Message. Berikut tampilan yang telah saya buat. <br>
+![Img - Contact Page](imgData/kontak.png)
+
