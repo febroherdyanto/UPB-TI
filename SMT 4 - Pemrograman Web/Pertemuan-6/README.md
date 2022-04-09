@@ -455,3 +455,11 @@ Saya membuat file baru dengan nama **daftar_menu.html** dengan mengisi source co
 
 Hasil dari source code tersebut adalah seperti gambar dibawah ini. <br>
 ![Javascript HTML DOM - List of Menu](imgData/daftar_menu.png)
+
+<hr>
+
+### Pertanyaan dan Tugas
+
+> 1. Buat script untuk melakukan validasi pada isian form. 
+
+<hr>
