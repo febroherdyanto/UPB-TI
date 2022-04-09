@@ -169,3 +169,47 @@ Point ini saya akan membuat fungsi dan memanggil lewat body onload. Saya membuat
 
 Hasil dari source code tersebut adalah seperti gambar dibawah ini. <br>
 ![Javascript Function Body Onload Proccess](imgData/jsFunction.png)
+
+<hr>
+
+### `Dasar Pemrograman di Javascript`
+
+#### `Operasi Dasar Aritmatika`
+
+Didalam Javascript juga bisa digunakan untuk menghitung operasi dasar aritmatika. Disini saya akan mencobanya, dengan membuat file baru dengan nama **jsAritmatika.html** dan memberikan source code seperti berikut.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Program Javascript</title>
+    <script type="text/javascript">
+        function test (val1, val2){
+            document.write("<br>"+"Perkalian : val1*val2 "+"<br>");
+            document.write(val1*val2);
+            document.write("<br>"+"Pembagian : val1/val2 "+"<br>");
+            document.write(val1/val2);
+            document.write("<br>"+"Penjumlahan : val1+val2 "+"<br>");
+            document.write(val1+val2);
+            document.write("<br>"+"Pengurangan : val1-val2 "+"<br>");
+            document.write(val1-val2);
+            document.write("<br>"+"Modulus : val1%val2 "+"<br>");
+            document.write(val1%val2);
+        }
+    </script>
+</head>
+<body>
+    
+    <input type="button" name="button1" value="arithmetic" onclick="test(9,4)">
+    
+</body>
+</html>
+```
+
+Hasil dari source tersebut, pertama kali akan menampilkan sebuah button. <br>
+![Javascript Arithmetic on HTML with Button](imgData/jsAritmatika-1.png) <br>
+Ketika button tersebut di klik akan menampilkan output seperti berikut. <br>
+![JJavascript Arithmetic on HTML with Button output](imgData/jsAritmatika-2.png)
