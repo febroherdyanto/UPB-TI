@@ -114,3 +114,31 @@ Kali ini saya akan menjelaskna mengenai Javascript method. Saya akan membuat fil
 
 Hasil dari source code diatas akan beberikan output sebagai berikut. <br>
 ![Javascript Method on Object](imgData/jsMethod.png)
+
+#### **Pemakaian Prompt**
+
+Poin ini saya akan membuat file HTML baru dengan nama **jsPrompt.html** guna untuk menjelaskan beberapa pemakaian Prompt pada Javascript. Dan source code yang saya masukkan adalah sebagai berikut. 
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemasukan Data</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        var nama = prompt("Siapa nama Anda?", "Masukkan nama Anda");
+        document.write("Hai, " + nama + "!");
+    </script>
+</body>
+</html>
+```
+
+Hasil ketika pertama kali saya me-load halaman tersebut akan menampilkan Alert untuk user memasukkan nama. <br>
+![Javascript Prompt Start on HTML Files](imgData/jsPrompt-1.png) <br>
+Setelah saya memasukkan nama **Febro Herdyanto** pada prompt tersebut, akan menampilkan halaman dengan isian : <br>
+![javascript Prompt Output on HTML Files](imgData/jsPrompt-2.png)
