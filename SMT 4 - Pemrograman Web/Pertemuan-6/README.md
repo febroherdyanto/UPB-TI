@@ -24,7 +24,7 @@
 
 Halo semua!. Kali ini saya akan menjelaskan beberapa syntax HTML dengan Javascript, sesuai dengan perintah Dosen yang mengampu Mata Kuliah Pemrograman Web.
 
-### `**Pengenalan document.write dan console.log**`
+### `Pengenalan document.write dan console.log`
 
 Materi pertama yang akan saya buat adalah pengenalan **document.write** dan **console.log**. Langkah pertama yang saya lakukan adalah membuat file baru dengan nama **lab5_javascript.html** dan memberikan code HTML dan Javascript yang telah saya buat.
 
@@ -54,9 +54,9 @@ Materi pertama yang akan saya buat adalah pengenalan **document.write** dan **co
 Setelah file **lab5_javascript.html** saya simpan, dan akan menampilkan output seperti dibawah ini. <br>
 ![Define Document Write and Console Log on Javascript](imgData/documentWrite%26consoleLog.png)
 
-### `**Javascript Dasar**`
+### `Javascript Dasar`
 
-#### `**Javascript Alert**`
+#### `Javascript Alert`
 
 Pada point ini saya akan menjelaskan mengenai Javascript Window Alert yang akan muncul pada browser. Saya akan membuat file baru dengan nama **js_alert.html**. Code yang akan saya buat adalah seperti berikut. 
 
@@ -84,7 +84,7 @@ Pada point ini saya akan menjelaskan mengenai Javascript Window Alert yang akan 
 Hasil dari code tersebut akan memberikan output sebagai berikut. <br>
 ![Window Alert on Javascript HTML files](imgData/jsAlert.png)
 
-#### **Javascript Method**
+#### `Javascript Method`
 
 Kali ini saya akan menjelaskna mengenai Javascript method. Saya akan membuat file baru dengan nama **jsMethod.html**. Dan beberikan source code HTML dan Javascript sebagai berikut.
 
@@ -115,7 +115,7 @@ Kali ini saya akan menjelaskna mengenai Javascript method. Saya akan membuat fil
 Hasil dari source code diatas akan beberikan output sebagai berikut. <br>
 ![Javascript Method on Object](imgData/jsMethod.png)
 
-#### **Pemakaian Prompt**
+#### `Pemakaian Prompt`
 
 Poin ini saya akan membuat file HTML baru dengan nama **jsPrompt.html** guna untuk menjelaskan beberapa pemakaian Prompt pada Javascript. Dan source code yang saya masukkan adalah sebagai berikut. 
 
@@ -143,7 +143,7 @@ Hasil ketika pertama kali saya me-load halaman tersebut akan menampilkan Alert u
 Setelah saya memasukkan nama **Febro Herdyanto** pada prompt tersebut, akan menampilkan halaman dengan isian : <br>
 ![javascript Prompt Output on HTML Files](imgData/jsPrompt-2.png)
 
-#### **Pembuatan Fungsi dan Cara Pemanggilannya**
+#### `Pembuatan Fungsi dan Cara Pemanggilannya`
 
 Point ini saya akan membuat fungsi dan memanggil lewat body onload. Saya membuat file baru dengan nama **jsFunction.html** dan memberikan source code seperti berikut.
 
