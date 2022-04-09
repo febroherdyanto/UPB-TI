@@ -24,7 +24,7 @@
 
 Halo semua!. Kali ini saya akan menjelaskan beberapa syntax HTML dengan Javascript, sesuai dengan perintah Dosen yang mengampu Mata Kuliah Pemrograman Web.
 
-### **Pengenalan document.write dan console.log**
+### `**Pengenalan document.write dan console.log**`
 
 Materi pertama yang akan saya buat adalah pengenalan **document.write** dan **console.log**. Langkah pertama yang saya lakukan adalah membuat file baru dengan nama **lab5_javascript.html** dan memberikan code HTML dan Javascript yang telah saya buat.
 
@@ -54,9 +54,9 @@ Materi pertama yang akan saya buat adalah pengenalan **document.write** dan **co
 Setelah file **lab5_javascript.html** saya simpan, dan akan menampilkan output seperti dibawah ini. <br>
 ![Define Document Write and Console Log on Javascript](imgData/documentWrite%26consoleLog.png)
 
-### **Javascript Dasar**
+### `**Javascript Dasar**`
 
-#### **Javascript Alert**
+#### `**Javascript Alert**`
 
 Pada point ini saya akan menjelaskan mengenai Javascript Window Alert yang akan muncul pada browser. Saya akan membuat file baru dengan nama **js_alert.html**. Code yang akan saya buat adalah seperti berikut. 
 
