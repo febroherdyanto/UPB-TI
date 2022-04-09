@@ -142,3 +142,30 @@ Hasil ketika pertama kali saya me-load halaman tersebut akan menampilkan Alert u
 ![Javascript Prompt Start on HTML Files](imgData/jsPrompt-1.png) <br>
 Setelah saya memasukkan nama **Febro Herdyanto** pada prompt tersebut, akan menampilkan halaman dengan isian : <br>
 ![javascript Prompt Output on HTML Files](imgData/jsPrompt-2.png)
+
+#### **Pembuatan Fungsi dan Cara Pemanggilannya**
+
+Point ini saya akan membuat fungsi dan memanggil lewat body onload. Saya membuat file baru dengan nama **jsFunction.html** dan memberikan source code seperti berikut.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Program Javascript</title>
+    <script type="text/javascript">
+        function pesan(){
+            alert("Memanggil Javascript lewat Body onload");
+        }
+    </script>
+</head>
+<body onload=pesan()>
+    
+</body>
+</html>
+```
+
+Hasil dari source code tersebut adalah seperti gambar dibawah ini. <br>
+![Javascript Function Body Onload Proccess](imgData/jsFunction.png)
