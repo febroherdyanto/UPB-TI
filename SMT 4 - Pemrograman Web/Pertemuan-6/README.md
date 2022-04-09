@@ -351,3 +351,49 @@ Hasil dari source code tersebut adalah seperti gambar dibawah ini, saya mencoba 
 ![Javascript Form Input HTML](imgData/jsFormInput.png)
 
 #### `Forms Button HTML`
+
+Pada point ini saya akan memberikan contoh untuk perubahan background color pada file HTML menggunakan onclick dan function Javascript. Saya membuat file baru dengan nama **jsFormButton.html** dan memberikan source code seperti berikut.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Form Button</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        function ubahWarnaLB(warna){
+            document.bgColor=warna;
+        }
+        function ubahWarnaLD(warna){
+            document.fgColor = warna;
+        }
+    </script>
+
+    <h1>Test</h1>
+    <form method="post" action="">
+        <input type="button" value="Latar Belakang Hijau" onclick="ubahWarnaLB('GREEN')">
+        <input type="button" value="Latar Belakang Putih" onclick="ubahWarnaLB('WHITE')">
+        <input type="button" value="Teks Kuning" onclick="ubahWarnaLD('YELLOW')">
+        <input type="button" value="Teks Biru" onclick="ubahWarnaLD('BLUE')">
+    </form>
+
+</body>
+</html>
+```
+
+Hasil pada source code tersebut adalah seperti gambar dibawah ini. <br>
+![Javascript HTML Form Button Change](imgData/jsFormButton.png) <br>
+Saya akan mencoba klik button **Latar Belakang Hijau** , dan yang akan terjadi adalah background dari HTML tersebut berubah menjadi hijau. <br>
+![Javascript HTML Form Button Change Background Green](imgData/jsFormButton-Green.png) <br>
+Selanjutnya saya akan mencoba klik button **Latar Belakang Putih** , yang akan terjadi adalah background akan kembali seperti semula, yaitu warna putih. <br>
+![Javascript HTML Form Button Change Background White](imgData/jsFormButton.png) <br>
+Button **Teks Kuning** jika di klik akan mengubah font *Test* menjadi warna kuning. <br>
+![Javascript HTML Form Button Change Text Color Yellow](imgData/jsFormButton-Yellow.png) <br>
+Sedangkan button **Teks Biru** jika diklik akan mengubah text *Test* berubah menjadi warna Biru. <br>
+![Javascript HTML Form Button Change Text Color Blue](imgData/jsFormButton-Blue.png)
+
