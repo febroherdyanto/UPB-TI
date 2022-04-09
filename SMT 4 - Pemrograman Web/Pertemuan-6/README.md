@@ -53,3 +53,33 @@ Materi pertama yang akan saya buat adalah pengenalan **document.write** dan **co
 
 Setelah file **lab5_javascript.html** saya simpan, dan akan menampilkan output seperti dibawah ini. <br>
 ![Define Document Write and Console Log on Javascript](imgData/documentWrite%26consoleLog.png)
+
+### **Javascript Dasar**
+
+#### **Javascript Alert**
+
+Pada point ini saya akan menjelaskan mengenai Javascript Window Alert yang akan muncul pada browser. Code yang akan saya buat adalah seperti berikut. 
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert Box</title>
+</head>
+<body>
+    
+    <script language="javascript">
+        <!--
+            window.alert("Febro Herdyanto \nIni merupakan pesan untuk Anda !");
+        //-->
+    </script>
+
+</body>
+</html>
+```
+
+Hasil dari code tersebut akan memberikan output sebagai berikut. <br>
+![Window Alert on Javascript HTML files](imgData/jsAlert.png)
