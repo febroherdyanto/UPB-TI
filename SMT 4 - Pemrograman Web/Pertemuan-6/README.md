@@ -58,7 +58,7 @@ Setelah file **lab5_javascript.html** saya simpan, dan akan menampilkan output s
 
 #### **Javascript Alert**
 
-Pada point ini saya akan menjelaskan mengenai Javascript Window Alert yang akan muncul pada browser. Code yang akan saya buat adalah seperti berikut. 
+Pada point ini saya akan menjelaskan mengenai Javascript Window Alert yang akan muncul pada browser. Saya akan membuat file baru dengan nama **js_alert.html**. Code yang akan saya buat adalah seperti berikut. 
 
 ```
 <!DOCTYPE html>
@@ -83,3 +83,34 @@ Pada point ini saya akan menjelaskan mengenai Javascript Window Alert yang akan 
 
 Hasil dari code tersebut akan memberikan output sebagai berikut. <br>
 ![Window Alert on Javascript HTML files](imgData/jsAlert.png)
+
+#### **Javascript Method**
+
+Kali ini saya akan menjelaskna mengenai Javascript method. Saya akan membuat file baru dengan nama **jsMethod.html**. Dan beberikan source code HTML dan Javascript sebagai berikut.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script Javascript</title>
+</head>
+<body>
+
+    Percobaan memakai Javascript. <br>
+
+    <script type="text/javascript">
+        <!--
+            document.write("Selamat mecoba Javascript <br>");
+            document.write("Semoga Sukses!");
+        //-->
+    </script>
+
+</body>
+</html>
+```
+
+Hasil dari source code diatas akan beberikan output sebagai berikut. <br>
+![Javascript Method on Object](imgData/jsMethod.png)
