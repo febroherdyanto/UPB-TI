@@ -213,3 +213,39 @@ Hasil dari source tersebut, pertama kali akan menampilkan sebuah button. <br>
 ![Javascript Arithmetic on HTML with Button](imgData/jsAritmatika-1.png) <br>
 Ketika button tersebut di klik akan menampilkan output seperti berikut. <br>
 ![JJavascript Arithmetic on HTML with Button output](imgData/jsAritmatika-2.png)
+
+#### `Seleksi Kondisi (if-else)`
+
+Pada point ini saya akan memberikan contoh statement condition pada Javascript. Dimana Jika nilai yang di input oleh user lebih dari samadengan 60, maka dinyatakan Lulus. Jika dibawah 60 akan mendapatkan hasil Tidak Lulus. Langkah selanjutnya saya akan membuat file HTML baru dengan nama **jsCondition.html** dengan source code seperti berikut. 
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Kondisi If Else</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+        var nilai = prompt("Nilai (0-100) : ", 0);
+        var hasil = "";
+        if(nilai >= 60)
+            hasil = "Lulus";
+        else
+            hasil = "Tidak Lulus";
+        
+        document.write("Hasil : "+hasil);
+    </script>
+</body>
+</html>
+```
+
+Hasil dari source code tersebut adalah akan menampilkan prompt untuk user memasukkan besaran nilai yang akan dicek oleh Javascript. <br>
+![Javascript Contion on HTML Files - Prompt](imgData/jsCondition-1.png) <br>
+Selanjutnya saya akan melakukan pengecekan dengan memasukkan nilai **70** maka akan muncul Hasil Lulus seperti gambar dibawah ini. <br>
+![Javascript Contion on HTML Files - Score 70](imgData/jsCondition-2.png) <br>
+Selain itu saya akan melakukan percobaan kembali untuk memasukkan nilai 50, maka akan muncul Hasil Tidak Lulus seperti gambar dibawah ini. <br>
+![Javascript Contion on HTML Files - Score 50](imgData/jsCondition-3.png)
