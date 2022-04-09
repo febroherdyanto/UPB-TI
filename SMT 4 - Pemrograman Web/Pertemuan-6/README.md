@@ -305,3 +305,49 @@ Setelah user mengisi angka 3, akan mendapatkan output seperti berikut . <br>
 Selain itu, saya juga melakukan percobaan untuk mengisi angka 10, dan hasil dari browser akan menampilkan seperti gambar dibawah ini. <br>
 ![Javascript Switch on HTML Files - Output from Input 10](imgData/jsSwitch-4.png)
 
+<hr>
+
+### `Pembuatan Forms HTML`
+
+#### `Form Input`
+
+Pada Topik pembuatan Form HTML -Input ini saya akan memberikan contoh pada sebuah kolom untuk memberikan hasil apakah bilangan tersebut Ganjil atau Genap. Saya membuat file baru dengan nama **jsFormInput.html** dan mengisikan source code berikut.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Form Input</title>
+    <script type="text/javascript">
+        function test(){
+            var val1 = document.kirim.T1.value;
+            if(val1%2 == 0)
+                document.kirim.T2.value="Bilangan Genap";
+            else
+                document.kirim.T2.val1="Bilangan Ganjil";
+        }
+    </script>
+</head>
+<body>
+
+    <form method="post" name="kirim">
+        <p>
+            Bilangan <input type="text" name="T1" size="20">
+            Merupakan Bilangan <input type="text" name="T2" size="20">
+        </p>
+        <p>
+            <input type="button" value="TEBAK" name="B1" onclick="test()">
+        </p>
+    </form>
+    
+</body>
+</html>
+```
+
+Hasil dari source code tersebut adalah seperti gambar dibawah ini, saya mencoba untuk memasukkan angka 8 pada kolom pertama. Dan hasil nya menampilkan Bilangan Genap. <br>
+![Javascript Form Input HTML](imgData/jsFormInput.png)
+
+#### `Forms Button HTML`
