@@ -397,3 +397,61 @@ Button **Teks Kuning** jika di klik akan mengubah font *Test* menjadi warna kuni
 Sedangkan button **Teks Biru** jika diklik akan mengubah text *Test* berubah menjadi warna Biru. <br>
 ![Javascript HTML Form Button Change Text Color Blue](imgData/jsFormButton-Blue.png)
 
+<hr>
+
+### `HTML DOM`
+
+Pada point terakhir ini yaitu **HTML DOM** saya akan mencoba membuat Daftar Menu otomatis menggunakan Checkbox dan perhitungan otomatis.
+Saya membuat file baru dengan nama **daftar_menu.html** dengan mengisi source code berikut. 
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Menu</title>
+    <script type="text/javascript">
+        function hitung(ele){
+            var total = document.getElementById('total').value;
+                total = (total ? parseInt(total) : 0);
+            var harga = 0;
+
+            if (ele.checked){
+                harga = ele.value;
+                total += parseInt(harga);
+            }else{
+                harga = ele.value;
+                if(total > 0)
+                    total -= parseInt(harga);
+            }
+
+            document.getElementById('total').value = total;
+        }
+    </script>
+</head>
+<body>
+    
+    <h1>Daftar Menu Makanan</h1>
+
+    <label>
+        <input type="checkbox" value="5000" id="menu1" onclick="hitung(this)"> Ayam Goreng Rp. 5.000
+    </label>
+        <br>
+    <label>
+        <input type="checkbox" value="500" id="menu2" onclick="hitung(this)"> Tempe Goreng Rp. 500
+    </label>
+        <br>
+    <label>
+        <input type="checkbox" value="2500" id="menu3" onclick="hitung(this)"> Telur Dadar Rp. 2.500
+    </label>
+        <br>
+    <strong>Total Bayar : <input type="text" id="total"></strong>
+
+</body>
+</html>
+```
+
+Hasil dari source code tersebut adalah seperti gambar dibawah ini. <br>
+![Javascript HTML DOM - List of Menu](imgData/daftar_menu.png)
