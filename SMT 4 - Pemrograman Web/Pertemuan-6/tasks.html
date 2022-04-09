@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Task on Pertemuan 6</title>
+    <style>
+        .container{
+            width: 700px;
+            height: 700px;
+            margin-top: 25px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            box-shadow: 0 0 2em #cccccc;
+            border-radius: 5%;
+            background-color: #d7d8e0;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .content{
+            padding-top: 10%;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 5%;
+        }
+        form input[type="text"], form input[type="email"], form input[type="tel"]{
+            width: 300px;
+            height: 20px;
+            padding: 6px;
+            margin: 3px;
+            color: blue;
+            border-color: none;
+            font-size: 15px;
+        }
+    </style>
+    <script type="text/javascript">
+        function validasi(){
+
+            if(document.login.username.value == ""){
+                document.getElementById('valusername').value = "Username Harus Diisi !";
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="content">
+            <center>
+                <img src="imgData/usericon.png" width="150px" height="150px">
+                <h2>LOGIN PAGE</h2>
+            </center>
+            
+            <form method="post" action="" name="login" onsubmit="return validasi()">
+                <p>
+                    <label for="username">Username</label>
+                    <input type="text" name="username" class="forminput"> <span id="valusername"></span>
+                </p>
+                <p>
+                    <button type="submit" class="btn">SIMPAN</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

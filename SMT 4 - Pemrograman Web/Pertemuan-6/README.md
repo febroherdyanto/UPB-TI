@@ -11,15 +11,6 @@
 
 <hr>
 
-## Daftar Isi
-
-| No | Judul | Link |
-| --- | --- | --- |
-| 1 | Membuat Box Element | [Click Here](#membuat-box-element) |
-| 2 | Menambahkan CSS Float Property | [Click Here](#menambahkan-css-float-property) |
-| 3 | Mengatur Clearfix Element | [Click Here](#mengatur-clearfix-element) |
-
-
 ## `Uraian Tugas`
 
 Halo semua!. Kali ini saya akan menjelaskan beberapa syntax HTML dengan Javascript, sesuai dengan perintah Dosen yang mengampu Mata Kuliah Pemrograman Web.
