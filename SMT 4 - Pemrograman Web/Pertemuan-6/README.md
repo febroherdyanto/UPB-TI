@@ -249,3 +249,59 @@ Selanjutnya saya akan melakukan pengecekan dengan memasukkan nilai **70** maka a
 ![Javascript Contion on HTML Files - Score 70](imgData/jsCondition-2.png) <br>
 Selain itu saya akan melakukan percobaan kembali untuk memasukkan nilai 50, maka akan muncul Hasil Tidak Lulus seperti gambar dibawah ini. <br>
 ![Javascript Contion on HTML Files - Score 50](imgData/jsCondition-3.png)
+
+#### `Penggunaan Operator Switch untuk Seleksi Kondisi`
+
+Pada point ini saya akan memberikan contoh penggunaan switch untuk seleksi kondisi. Langkah pertama yaitu kita harus membuat file baru dengan nama **jsSwitch.html** dan memberikan / mengisikan source code seperti berikut. 
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Switch</title>
+    <script type="text/javascript">
+        function test(){
+            val1 = window.prompt("Input Nilai (1-5) : ");
+
+            switch(val1){
+                case "1" :
+                    document.write("Bilangan Satu");
+                    break;
+                case "2" :
+                    document.write("Bilangan Dua");
+                    break;
+                case "3" :
+                    document.write("Bilangan Tiga");
+                    break;
+                case "4" :
+                    document.write("Bilangan Empat");
+                    break;
+                case "5" :
+                    document.write("Bilangan Lima");
+                    break;
+                default :
+                    document.write("Bilangan Lainnya...");
+            }
+        }
+    </script>
+</head>
+<body>
+    
+    <input type="button" name="button1" value="switch" onclick="test()">
+
+</body>
+</html>
+```
+
+Hasil dari source code tersebut akan menampilkan button switch untuk melakukan proses berikutnya. <br>
+![Javascript Switch on HTML Files - Button](imgData/jsSwitch-1.png) <br>
+Ketika kita melakukan klik pada button tersebut, maka window akan menampilkan prompt dimana meminta user agar mengisi form tersebut dengan angka 1-5. Disini saya mencoba mengisi dengan angka 3. <br>
+![Javascript Switch on HTML Files - Input 3](imgData/jsSwitch-2.png) <br>
+Setelah user mengisi angka 3, akan mendapatkan output seperti berikut . <br>
+![Javascript Switch on HTML Files - Output from Input 3](imgData/jsSwitch-3.png) <br>
+Selain itu, saya juga melakukan percobaan untuk mengisi angka 10, dan hasil dari browser akan menampilkan seperti gambar dibawah ini. <br>
+![Javascript Switch on HTML Files - Output from Input 10](imgData/jsSwitch-4.png)
+
