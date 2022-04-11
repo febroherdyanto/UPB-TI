@@ -7,62 +7,98 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Task on Pertemuan 6</title>
     <style>
-        .container{
-            width: 700px;
-            height: 700px;
-            margin-top: 25px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: auto;
-            box-shadow: 0 0 2em #cccccc;
-            border-radius: 5%;
-            background-color: #d7d8e0;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        body {
+            margin-top: 100px;
+            background: #4b7c9d;
+            font-family: sans-serif;
         }
-        .content{
-            padding-top: 10%;
-            padding-left: 5%;
-            padding-right: 5%;
-            padding-bottom: 5%;
+        
+        h2 {
+            color: #fff;
         }
-        form input[type="text"], form input[type="email"], form input[type="tel"]{
-            width: 300px;
-            height: 20px;
-            padding: 6px;
-            margin: 3px;
-            color: blue;
-            border-color: none;
+        
+        .login {
+            padding: 1em;
+            margin: 2em auto;
+            width: 17em;
+            background: #fff;
+            border-radius: 3px;
+        }
+        
+        label {
+            font-size: 10pt;
+            color: rgb(145, 157, 184);
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        textarea {
+            padding: 8px;
+            width: 95%;
+            background: #efefef;
+            border: 0;
+            font-size: 10pt;
+            margin: 6px 0px;
+        }
+        
+        .tombol {
+            background: #1a36eb;
+            color: #fff;
+            border: 0;
+            padding: 5px 8px;
+        }  
+        .footer{
+            background-color: black;
+            color: white;
             font-size: 15px;
-        }
+            padding: 5px;
+            border-radius: 5px;
+        } 
     </style>
     <script type="text/javascript">
-        function validasi(){
-
-            if(document.login.username.value == ""){
-                document.getElementById('valusername').value = "Username Harus Diisi !";
+        function validasi() {
+            var nama = document.getElementById("nama").value;
+            var email = document.getElementById("email").value;
+            var alamat = document.getElementById("alamat").value;
+            var nim = document.getElementById("nim").value;
+            if (nama != "" && email!="" && alamat !="" && nim !="") {
+                return true;
+            }else{
+                alert('Anda harus mengisi data dengan lengkap !');
             }
         }
     </script>
 </head>
 <body>
+    <div class="login">
+		<form action="" method="POST" onSubmit="validasi()">
+			<div>
+				<label>Nama Lengkap:</label>
+				<input type="text" name="nama" id="nama" />
+			</div>
+			<div>
+				<label>Nomor Induk Mahasiswa:</label>
+				<input type="number" name="nim" id="nim" />
+			</div>
+			<div>
+				<label>Email:</label>
+				<input type="email" name="email" id="email" />
+			</div>
+			<div>
+				<label>Alamat:</label>
+				<textarea cols="40" rows="5" name="alamat" id="alamat"></textarea>
+			</div>
+			<div>
+				<input type="submit" value="Daftar" class="tombol">
+			</div>
+		</form>
+	</div>
 
-    <div class="container">
-        <div class="content">
-            <center>
-                <img src="imgData/usericon.png" width="150px" height="150px">
-                <h2>LOGIN PAGE</h2>
-            </center>
-            
-            <form method="post" action="" name="login" onsubmit="return validasi()">
-                <p>
-                    <label for="username">Username</label>
-                    <input type="text" name="username" class="forminput"> <span id="valusername"></span>
-                </p>
-                <p>
-                    <button type="submit" class="btn">SIMPAN</button>
-                </p>
-            </form>
-        </div>
+    <div class="footer">
+        <center>
+            <i>Febro Herdyanto | 312010043 | Pemrograman Web | Pertemuan 6</i>
+        </center>
     </div>
 
 </body>

@@ -454,3 +454,9 @@ Hasil dari source code tersebut adalah seperti gambar dibawah ini. <br>
 > 1. Buat script untuk melakukan validasi pada isian form. 
 
 <hr>
+
+### Jawaban
+
+> 1. Saya membuat form berisian Nama Lengkap, NIM, Email dan Alamat. Apabila user tidak mengisi form secara penuh, maka akan ada Javascript Window Alert yang memperingatkannya <br>
+
+![Completed Task for Javascript Session](imgData/tasks.png)
