@@ -87,4 +87,4 @@ Hasil dari source code tersebut akan menampilkan output pada browser seperti gam
 
 ### **Membuat 2 Kolom Berisi Heading dan Widget Header**
 
-Saat ini saya akan membuat baris baru menggunakan `\<div class="row">` menjadi 2 bagian. Dimana sisi saya bagi dari 8 kolom dan sisi kanan 4 kolom. 
+Saat ini saya akan membuat baris baru menggunakan `<div class="row">` menjadi 2 bagian. Dimana sisi saya bagi dari 8 kolom dan sisi kanan 4 kolom. 
