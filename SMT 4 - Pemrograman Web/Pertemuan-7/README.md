@@ -87,4 +87,22 @@ Hasil dari source code tersebut akan menampilkan output pada browser seperti gam
 
 ### **Membuat 2 Kolom Berisi Heading dan Widget Header**
 
-Saat ini saya akan membuat baris baru menggunakan `<div class="row">` menjadi 2 bagian. Dimana sisi saya bagi dari 8 kolom dan sisi kanan 4 kolom. 
+Saat ini saya akan membuat baris baru menggunakan `<div class="row">` menjadi 2 bagian. Dimana sisi saya bagi dari 8 kolom dan sisi kanan 4 kolom. <br>
+Saya membaginya seperti ini contoh dibawah ini.
+
+```
+... //div container
+    <div class="row">
+        <div class="col col-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium in placeat aperiam praesentium recusandae nulla commodi! Reprehenderit vitae, placeat deserunt, quod saepe excepturi neque voluptates magnam maiores, sunt odio error. Possimus, repellendus ex repudiandae, recusandae quidem officia nobis quisquam saepe ad eveniet minus pariatur similique corrupti nulla voluptates, alias esse cum. Voluptatibus debitis, unde cupiditate aut porro, consequuntur quasi officia facere obcaecati vero repellat fuga nulla cumque optio velit incidunt ullam aliquam! Fuga modi hic neque saepe amet minima, ipsum rerum id dolorem reiciendis? Temporibus nobis omnis nam, ex similique quaerat pariatur dolorem, vitae quis veritatis error doloribus, ab dolore!
+        </div>
+
+        <div class="col col-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni corrupti quisquam optio repellendus voluptas ab, aspernatur neque expedita atque suscipit laudantium, quam modi eius ut, aliquid praesentium pariatur consequatur dolor.
+        </div>
+    </div>
+... // end of container
+```
+
+Hasil dari Pembagian tersebut adalah seperti gambar dibawah ini. <br>
+![Row and Columns on Content Section](imgData/contentSection.png)
