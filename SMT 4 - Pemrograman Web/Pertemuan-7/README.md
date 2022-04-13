@@ -85,3 +85,6 @@ Source code yang saya masukkan pada file **index.html** seperti berikut.
 Hasil dari source code tersebut akan menampilkan output pada browser seperti gambar dibawah ini. <br>
 ![Create Header and Hero Section](imgData/header.png)
 
+### **Membuat 2 Kolom Berisi Heading dan Widget Header**
+
+Saat ini saya akan membuat baris baru menggunakan `\<div class="row"> menjadi 2 bagian. Dimana sisi saya bagi dari 8 kolom dan sisi kanan 4 kolom. 
