@@ -15,4 +15,5 @@
 
 ### **Membuat Header dan Hero**
 
+![Create Header and Hero Section](imgData/header.png)
 
