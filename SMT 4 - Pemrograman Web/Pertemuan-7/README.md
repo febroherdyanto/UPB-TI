@@ -143,3 +143,37 @@ Setelah layout columns yang saya buat sesuai, saya akan memulai memasukkan gamba
 
 Hasil dari tambahan source code saya adalah seperti gambar dibawah ini. <br>
 ![Add Content with a Image Section and Buton](imgData/contentFilled.png)
+
+### **Membuat Konten Artikel**
+
+Kali ini saya akan membuat content article menggunakan bootstrap. dimana setiap artikel yang ditambahkan akan ada foto di sisi kiri dan kanan. Saya akan menambahkan beberapa source code untuk content article.
+
+```
+...
+// div col 8
+            <div class="clearfix entry">
+                <h2>First featurette heading.</h2>
+                <img src="https://dummyimage.com/150/7b8a70/fff.png" class="float-md-start d-block">
+                <p style="margin-left: 15px;">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam hic libero dolore magnam quidem autem, similique, dolores ratione, vel ipsum nemo! Et aperiam reiciendis rerum, illo voluptas esse enim hic.
+                  <br> 
+                </p>
+                <a href="#" class="text-decoration-none">Baca Selengkapnya...</a>
+            </div>
+            <hr>
+            <div class="clearfix entry">
+                <h2>First featurette heading.</h2>
+                <img src="https://dummyimage.com/150/7b8a70/fff.png" class="float-md-end d-block">
+                <p style="margin-right: 15px;">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam hic libero dolore magnam quidem autem, similique, dolores ratione, vel ipsum nemo! Et aperiam reiciendis rerum, illo voluptas esse enim hic.
+                  <br> 
+                </p>
+                <a href="#" class="text-decoration-none">Baca Selengkapnya...</a>
+            </div>
+// end of div 
+...
+```
+
+Hasil dari source code tersebut ketika ditampilkan pada browser seperti gambar dibawah ini. <br>
+![Add Content Article for Home Page](imgData/contentArticle.png)
+
