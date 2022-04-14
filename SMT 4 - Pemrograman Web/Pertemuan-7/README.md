@@ -106,3 +106,40 @@ Saya membaginya seperti ini contoh dibawah ini.
 
 Hasil dari Pembagian tersebut adalah seperti gambar dibawah ini. <br>
 ![Row and Columns on Content Section](imgData/contentSection.png)
+
+<br>
+
+Setelah layout columns yang saya buat sesuai, saya akan memulai memasukkan gambar yang berisi Heading dan tombol. Beberapa source code yang saya tambahkan sebagai berikut. 
+
+```
+...
+// div class row
+        <div class="col col-8">
+            <div class="row">
+                <div class="col align-middle">
+                    <img src="https://dummyimage.com/120/db7d25/fff.png" class="rounded rounded-circle mx-auto d-block" alt="Image 1">
+                    <h3 class="text-center">Heading</h3>
+                    <p class="text-center">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                    <center><a href="#" class="btn btn-secondary">View Details</a></center>
+                </div>
+                <div class="col">
+                    <img src="https://dummyimage.com/120/3e73e6/fff.png" class="rounded rounded-circle mx-auto d-block" alt="Image 2">
+                    <h3 class="text-center">Heading</h3>
+                    <p class="text-center">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                    <center><a href="#" class="btn btn-secondary">View Details</a></center>
+                </div>
+                <div class="col">
+                    <img src="https://dummyimage.com/120/71e6d4/fff.png" class="rounded rounded-circle mx-auto d-block" alt="Image 3">
+                    <h3 class="text-center">Heading</h3>
+                    <p class="text-center">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                    <center><a href="#" class="btn btn-secondary">View Details</a></center>
+                </div>
+            </div>
+            <hr>
+        </div>
+// end of div row
+...
+```
+
+Hasil dari tambahan source code saya adalah seperti gambar dibawah ini. <br>
+![Add Content with a Image Section and Buton](imgData/contentFilled.png)
