@@ -85,6 +85,8 @@ Source code yang saya masukkan pada file **index.html** seperti berikut.
 Hasil dari source code tersebut akan menampilkan output pada browser seperti gambar dibawah ini. <br>
 ![Create Header and Hero Section](imgData/header.png)
 
+<hr>
+
 ### **Membuat 2 Kolom Berisi Heading dan Widget Header**
 
 Saat ini saya akan membuat baris baru menggunakan `<div class="row">` menjadi 2 bagian. Dimana sisi saya bagi dari 8 kolom dan sisi kanan 4 kolom. <br>
@@ -144,6 +146,8 @@ Setelah layout columns yang saya buat sesuai, saya akan memulai memasukkan gamba
 Hasil dari tambahan source code saya adalah seperti gambar dibawah ini. <br>
 ![Add Content with a Image Section and Buton](imgData/contentFilled.png)
 
+<hr>
+
 ### **Membuat Konten Artikel**
 
 Kali ini saya akan membuat content article menggunakan bootstrap. dimana setiap artikel yang ditambahkan akan ada foto di sisi kiri dan kanan. Saya akan menambahkan beberapa source code untuk content article.
@@ -174,6 +178,31 @@ Kali ini saya akan membuat content article menggunakan bootstrap. dimana setiap 
 ...
 ```
 
+<br>
+
 Hasil dari source code tersebut ketika ditampilkan pada browser seperti gambar dibawah ini. <br>
 ![Add Content Article for Home Page](imgData/contentArticle.png)
 
+<hr>
+
+### **Menambahkan Footer**
+
+Pada point ini saya akan menambahkan footer menggunakan Bootstrap. Source code yang saya gunakan untuk membuat footer adalah sebagai berikut.
+
+```
+...
+// container
+    <div class="row">
+        <div class="card text-white bg-dark mb-1">
+            <div class="card-body text-center">
+                Febro Herdyanto - 312010043 - TI.20.B.1 <br>
+                &copy; 2022 - Universitas Pelita Bangsa
+            </div>
+        </div>
+    </div>
+// end of container
+...
+```
+
+Hasil dari source code tersebut apabila di running di Web Browser akan menampilkan seperti gambar dibawah ini <br><br>
+![Add Footer for Home Page](imgData/addFooter.png)
