@@ -239,3 +239,9 @@ Pada point terakhir saya akan membuat Widget Layout yang ada di sisi sebelah kan
 
 Hasil dari source code tersebut ketika di running pada web browser akan menampilkan gambar seperti dibawah ini. <br><br>
 ![Add Widget Layout on Home Page](imgData/widgetLayout.png)
+
+<hr>
+
+## `HASIL HALAMAN WEBSITE`
+
+![Output All Task on this Repository](imgData/output.png)
