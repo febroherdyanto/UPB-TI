@@ -206,3 +206,36 @@ Pada point ini saya akan menambahkan footer menggunakan Bootstrap. Source code y
 
 Hasil dari source code tersebut apabila di running di Web Browser akan menampilkan seperti gambar dibawah ini <br><br>
 ![Add Footer for Home Page](imgData/addFooter.png)
+
+<hr>
+
+### **Membuat Widget Layout**
+
+Pada point terakhir saya akan membuat Widget Layout yang ada di sisi sebelah kanan. Source code yang saya tambahkan adalah seperti berikut.
+
+```
+...
+// col 4
+            <ul class="list-group">
+                <li class="list-group-item active fw-bolder" aria-current="true">Widget Header</li>
+                <li class="list-group-item">E-Campus PB</li>
+                <li class="list-group-item">Portfolio</li>
+                <li class="list-group-item">Widget Link</li>
+                <li class="list-group-item">Widget Link</li>
+                <li class="list-group-item">Widget Link</li>
+            </ul>
+
+            <br><br>
+
+            <div class="card mb-3" style="max-width: 18rem;">
+                <div class="card-header text-white bg-primary fw-bolder">Widget Text</div>
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quidem vitae mollitia suscipit dolores non deleniti, quis autem reiciendis eos, labore iure nam facilis minus id laborum maiores laboriosam ipsam?
+                </div>
+            </div>
+// end of col 4
+...
+```
+
+Hasil dari source code tersebut ketika di running pada web browser akan menampilkan gambar seperti dibawah ini. <br><br>
+![Add Widget Layout on Home Page](imgData/widgetLayout.png)
