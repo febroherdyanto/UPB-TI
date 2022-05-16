@@ -87,7 +87,7 @@ Berikut adalah output dari source code diatas. <br>
 
 ### `Predefine Variable $_GET`
 
-Pada point predefine variable PHP $_GET disini digunakan untuk mengambil nilai variable yang dikirimkan melalui GET URL. Berikut source code contoh pada predefine variable PHP GET.
+Pada point predefine variable PHP $_GET disini digunakan untuk mengambil nilai variable yang dikirimkan melalui GET URL. Berikut source code contoh pada predefine variable PHP GET. Saya akan membuat file baru dengan nama **latihan2.php**
 
 ```
 <!DOCTYPE html>
@@ -115,3 +115,43 @@ Pada point predefine variable PHP $_GET disini digunakan untuk mengambil nilai v
 
 Hasil running dari source code diatas adalah seperti berikut. <br>
 ![Image Data - Output Predefine Variable PHP GET](imgData/ViewPredefineGET.png)
+
+### `Membuat Form Input`
+
+Point ini akan menjelaskan membuat Form Input menggunaka PHP dan HTML menggunakan method POST. Saya akan membuat file baru dengan nama **form_input.php**
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input</title>
+</head>
+<body>
+
+    <h1>Form Input Using POST Method</h1>
+
+    <form method="POST">
+        <label>Nama : </label>
+        <input type="text" name="nama">
+        <input type="submit" value="Kirim">
+    </form>
+
+    <hr>
+    <h3 style="color: grey;">Output</h3>
+    <?php
+        echo "Selamat Datang ".$_POST['nama'];
+    ?>
+
+    <div> <br> <br> <br>
+        <span style="background-color:#1d1d1d; padding:3px; color:#eee; border-radius:5px; "> &nbsp; &nbsp; &nbsp; <i>Created by. Febro Herdyanto (312010043)</i> &nbsp; &nbsp; &nbsp;</span>
+    </div>
+
+</body>
+</html>
+```
+
+Hasil dari source code tersebut adalah seperti berikut. <br>
+![Image Data - Form Input using POST Method](imgData/formInput.png)
