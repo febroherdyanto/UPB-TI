@@ -14,7 +14,19 @@
         echo "Hello World!";
     ?>
 
-<div> <br> <br> <br>
+    <br>
+    <hr>
+
+    <h1>Menggunakan Variable PHP</h1>
+    <?php
+        $nim = "312010043";
+        $nama = "Febro Herdyanto";
+
+        echo "NIM : ".$nim."<br>";
+        echo "Nama : $nama";
+    ?>
+
+<div> <br> <br>
     <span style="background-color:#1d1d1d; padding:3px; color:#eee; border-radius:5px; "> &nbsp; &nbsp; &nbsp; <i>Created by. Febro Herdyanto (312010043)</i> &nbsp; &nbsp; &nbsp;</span>
 </div>
 

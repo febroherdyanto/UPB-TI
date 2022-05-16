@@ -67,3 +67,20 @@ Pada point PHP dasar ini saya akan membuat file baru didalam folder *lab7_php_da
 
 Berikut adalah tampilan pada web browsernya. <br>
 ![Image Data - Output PHP Dasar](imgData/php_dasar.png)
+
+### `Variable PHP`
+
+Setelah belajar menampilkan output menggunakan PHP, kali ini saya membuat variable pada PHP. Untuk variable, PHP menggunakan $ (dolar) untuk mendefinisikan. 
+
+```
+    <?php
+        $nim = "312010043";
+        $nama = "Febro Herdyanto";
+
+        echo "NIM : ".$nim."<br>";
+        echo "Nama : $nama";
+    ?>
+```
+
+Berikut adalah output dari source code diatas. <br>
+![Image Data - Variable PHP](imgData/variablePHP.png)
