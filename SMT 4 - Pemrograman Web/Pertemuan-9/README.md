@@ -173,3 +173,30 @@ Didalam PHP terdapat operator aritmatika yang dapat digunakan, pada tugas ini sa
 
 Hasil pada operasi aritmatika tersebut adalah sebagai berikut. <br>
 ![Image Data - Operator Artimatics PHP](imgData/operator.png)
+
+### `Kondisi IF`
+
+Disini saya akan membuat file baru dengan nama **kondisiif.php** dengan berisikan source code seperti berikut. Kondisi IF digunakan jika pernyataan untuk mengeksekusi beberapa kode hanya jika kondisi tersebut itu adalah benar. Statement if else dipergunakan untuk mengeksekusi beberapa kondisi jika kondisi benar dan jika kondisi salah.
+
+```
+<h2>Kondisi IF</h2>
+
+<?php
+    $nama_hari = date("l");
+
+    if ($nama_hari == "Sunday") {
+        echo "Minggu";
+    } elseif ($nama_hari == "Monday") {
+        echo "Senin";
+    } else {
+        echo "Selasa";
+    }
+?>
+
+<div> <br> <br>
+    <span style="background-color:#1d1d1d; padding:3px; color:#eee; border-radius:5px; "> &nbsp; &nbsp; &nbsp; <i>Created by. Febro Herdyanto (312010043)</i> &nbsp; &nbsp; &nbsp;</span>
+</div>
+```
+
+Hasil pada source code diatas seperti berikut. <br>
+![Image Data - Statement IF Else on PHP](imgData/kondisiif.png)
