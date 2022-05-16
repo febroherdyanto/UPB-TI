@@ -22,3 +22,8 @@ Saya telah melakukan instalasi Web Server sebelumnya, yaitu XAMPP Application. <
 
 Setelah itu saya akan mencoba menghidupkan Apache pada XAMPP Control Panel. <br>
 ![Image Data - XAMPP Control Panel](imgData/xamppCP.png)
+
+<br>
+
+Saya akan menjalankan Web Server tersebut pada Web Browser Chrome, dengan mengetikkan [http://localhost/](http://localhost/) atau [http://127.0.0.1/](http://127.0.0.1/) . Maka akan muncul tampilan seperti berikut. <br>
+![Image Data - Localhost View on Browser](imgData/localhost.png)
