@@ -287,3 +287,29 @@ While adalah perintah pada PHP dan bahasa pemrograman lainnya untuk membuat sebu
 
 Hasil dari source code diatas adalah. <br>
 ![Image Data - Looping using While on PHP](imgData/while.png)
+
+### `Perulangan Do While PHP`
+
+Perulangan do/while akan melakukan perulangan dulu, kemudian memeriksa kondisinya atau sayaratnya. Kalau kondisi terpenuhi, maka do/while akan melanjutkan perulangan. Sebaliknya, dia akan berhenti (break). <br>
+Saya akan membuat file baru dengan nama **dowhile.php** dengan source code berikut.
+
+```
+<h2>Perulangan Dowhile</h2>
+
+<?php
+    echo "Perulangan 1 sampai 10 <br />";
+
+    $i=1;
+        do {
+            echo "Perulangan ke: " . $i . '<br />';
+            $i++;
+        } while ($i<=10);
+?>
+
+<div> <br> <br>
+    <span style="background-color:#1d1d1d; padding:3px; color:#eee; border-radius:5px; "> &nbsp; &nbsp; &nbsp; <i>Created by. Febro Herdyanto (312010043)</i> &nbsp; &nbsp; &nbsp;</span>
+</div>
+```
+
+Hasil dari source code diatas adalah. <br>
+![Image Data - Looping using Do While on PHP](imgData/dowhile.png)
