@@ -39,3 +39,31 @@ Disini saya akan membuat folder baru dengan nama **lab7_php_dasar** yang diletak
 Dan akan menampilan seperti dibawah ini pada browser. <br>
 
 ![Image Data - View folder on Browser](imgData/rootFolderView.png)
+
+### `PHP Dasar / Basic PHP`
+
+Pada point PHP dasar ini saya akan membuat file baru didalam folder *lab7_php_dasar* yaitu **php_dasar.php**. Pada file PHP tersebut saya akan mengisikan file PHP yang berisikan Hello World.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Dasar</title>
+</head>
+<body>
+
+    <h1>Belajar PHP Dasar</h1>
+    
+    <?php
+        echo "Hello World!";
+    ?>
+
+</body>
+</html>
+```
+
+Berikut adalah tampilan pada web browsernya. <br>
+![Image Data - Output PHP Dasar](imgData/php_dasar.png)
