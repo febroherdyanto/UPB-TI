@@ -319,3 +319,15 @@ Hasil dari source code diatas adalah. <br>
 > Buatlah program PHP sederhana dengan menggunakan form input yang menampilkan nama, tanggal lahir dan pekerjaan. Kemudian tampilkan outputnya dengan menghitung umur berdasarkan inputan tanggal lahir. Dan pilihan pekerjaan dengan gaji yang berbeda-beda sesuai pilihan pekerjaan.
 
 ## `Jawaban dari Tugas`
+
+> Saya telah membuat 1 file PHP dengan nama **index.php** dimana file tersebut berisi form input data karyawan yang meminta user untuk memasukkan Nama, Tanggal Lahir dan Pekerjaannya. <br> Ketika tombol simpan disimpan, maka akan menghitung umur dan menampilkan Gaji yang diperoleh berdasarkan pekerjaan yang dipilih. Berikut Screenshot yang saya buat.
+
+<br>
+
+![Image Data - Final Task 7 - Form Input Employee](imgData/task-1.png)
+
+<br>
+
+Output ketika disimpan. <br>
+
+![Image Data - Final Task 7 - After submited employee Data](imgData/task-2.png)
