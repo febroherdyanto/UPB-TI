@@ -200,3 +200,35 @@ Disini saya akan membuat file baru dengan nama **kondisiif.php** dengan berisika
 
 Hasil pada source code diatas seperti berikut. <br>
 ![Image Data - Statement IF Else on PHP](imgData/kondisiif.png)
+
+### `Kondisi Switch`
+
+Disini saya membuat file baru dengan nama **switch.php**. Perintah Switch di gunakan untuk memeriksa kebenaran suatu nilai dengan memiliki banyak pemilihan atau nilai pengecekannya. hampir sama dengan penggunaan if else pada php. Source code yang saya tuliskan seperti berikut.
+
+```
+<h2>Kondisi Switch</h2>
+
+<?php
+    $nama_hari = date("l");
+    switch ($nama_hari) {
+        case "Sunday":
+            echo "Hari Minggu";
+            break;
+        case "Monday":
+            echo "Hari Senin";
+            break;
+        case "Tuesday":
+            echo "Hari Selasa";
+            break;
+        default:
+            echo "Hari Sabtu";
+        }
+?>
+
+<div> <br> <br>
+    <span style="background-color:#1d1d1d; padding:3px; color:#eee; border-radius:5px; "> &nbsp; &nbsp; &nbsp; <i>Created by. Febro Herdyanto (312010043)</i> &nbsp; &nbsp; &nbsp;</span>
+</div>
+```
+
+Hasil dari source code diatas adalah seperti berikut. <br>
+![Image Data - Statement Switch on PHP](imgData/switch.png)
