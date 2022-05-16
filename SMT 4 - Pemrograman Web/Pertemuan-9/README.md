@@ -155,3 +155,21 @@ Point ini akan menjelaskan membuat Form Input menggunaka PHP dan HTML menggunaka
 
 Hasil dari source code tersebut adalah seperti berikut. <br>
 ![Image Data - Form Input using POST Method](imgData/formInput.png)
+
+### `Operator PHP`
+
+Didalam PHP terdapat operator aritmatika yang dapat digunakan, pada tugas ini saya akan mencoba untuk menggunakan operator aritmatika. Saya membuat file baru dengan nama **operator.php**.
+
+```
+<?php
+    $gaji = 1000000;
+    $pajak = 0.1;
+    $thp = $gaji - ($gaji*$pajak);
+
+    echo "Gaji sebelum pajak = Rp. $gaji <br>";
+    echo "Gaji yang dibawa pulang = Rp. $thp";
+?>
+```
+
+Hasil pada operasi aritmatika tersebut adalah sebagai berikut. <br>
+![Image Data - Operator Artimatics PHP](imgData/operator.png)
