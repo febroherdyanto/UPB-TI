@@ -262,3 +262,28 @@ Perulangan for merupakan perulangan yang termasuk dalam couted loop, karena suda
 
 Hasil dari source code diatas adalah sebagai berikut. <br>
 ![Image Data - Looping For on PHP](imgData/for.png)
+
+### `Perulangan While`
+
+While adalah perintah pada PHP dan bahasa pemrograman lainnya untuk membuat sebuah perulangan yang tidak di ketahui berapa kali perulangan tersebut di lakukan. Saya akan membuat file baru dengan nama **while.php** dengan source code dibawah ini.
+
+```
+<h2>Perulangan While</h2>
+
+<?php
+    echo "Perulangan 1 sampai 10 <br />";
+
+    $i=1;
+        while ($i<=10) {
+            echo "Perulangan ke: " . $i . '<br />';
+            $i++;
+        }
+?>
+
+<div> <br> <br>
+    <span style="background-color:#1d1d1d; padding:3px; color:#eee; border-radius:5px; "> &nbsp; &nbsp; &nbsp; <i>Created by. Febro Herdyanto (312010043)</i> &nbsp; &nbsp; &nbsp;</span>
+</div>
+```
+
+Hasil dari source code diatas adalah. <br>
+![Image Data - Looping using While on PHP](imgData/while.png)
