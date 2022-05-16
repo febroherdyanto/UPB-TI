@@ -232,3 +232,33 @@ Disini saya membuat file baru dengan nama **switch.php**. Perintah Switch di gun
 
 Hasil dari source code diatas adalah seperti berikut. <br>
 ![Image Data - Statement Switch on PHP](imgData/switch.png)
+
+### `Perulangan FOR`
+
+Disini saya akan membuat file baru dengan nama **for.php** dengan source code seperti dibawah ini. <br>
+Perulangan for merupakan perulangan yang termasuk dalam couted loop, karena sudah jelas berapa kali ia akan mengulang.
+
+```
+<h2>Perulangan FOR</h2>
+
+<?php
+    echo "Perulangan 1 sampai 10 <br />";
+
+    for ($i=1; $i<=10; $i++) {
+        echo "Perulangan ke: " . $i . '<br />';
+    }
+    
+    echo "<hr>";
+    echo "Perulangan Menurun dari 10 ke 1 <br />";
+    for ($i=10; $i>=1; $i--) {
+        echo "Perulangan ke: " . $i . '<br />';
+    }
+?>
+
+<div> <br> <br>
+    <span style="background-color:#1d1d1d; padding:3px; color:#eee; border-radius:5px; "> &nbsp; &nbsp; &nbsp; <i>Created by. Febro Herdyanto (312010043)</i> &nbsp; &nbsp; &nbsp;</span>
+</div>
+```
+
+Hasil dari source code diatas adalah sebagai berikut. <br>
+![Image Data - Looping For on PHP](imgData/for.png)
