@@ -22,3 +22,21 @@ Disini saya akan menjalankan Apache dan MySQL pada aplikasi Ampps. <br>
 ![Web Server Ampps is ON](imgData/AmppsON.png) <br>
 Selain itu saya juga membuat folder baru dengan nama *lab8_php_database* pada **root directory** Ampps tersebut. Root directory terletak pada **C:\Program Files\Ampps\www**. <br>
 ![Ampps - Root Directory Folders](imgData/RootDir.png)
+
+## `Create Database using CLI on Command Prompt`
+
+Disini saya akan menjelaskan membuat database MySQL dengan menggunakan CMD / Command Prompt. Selain menggunakan CMD, pembuatan database juga dapat dilakukan menggunakan browser dan menuju ke halaman PHPMyAdmin. Dengan mengetikkan url berikut [http://localhost/phpmyadmin](http://localhost/phpmyadmin) .<br>
+Berikut tampilan MySQL ketika menggunakan CLI. <br>
+![MySQL CLI on Command Prompt](imgData/sqlCLI.png).
+
+Pada gambar diatas ditampilkan bagaimana cara masuk ke direktori MySQL yang ada di Web Server kita. <br>
+Langkah selanjutnya, saya akan membuat database baru dengan nama **latihan1** . Dengan mengetikkan perintah berikut pada CMD. 
+
+```
+mysql> create database latihan1;
+//Query OK, 1 row affected (0.01 sec)
+```
+
+![MySQL - Database Created using CLI method](imgData/databaseCreated.png)
+
+## `Create Table on Latihan1`
