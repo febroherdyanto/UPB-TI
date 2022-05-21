@@ -20,5 +20,5 @@ Langsung mulai sajaa...
 Pada point *Web Server Preparation*, sebelumnya saya menggunakan XAMPP. Berhubung XAMPP saya sedang bermasalah dengan SQL, maka saya ganti menggunakan Ampps. Penggunaannya sama dengan XAMPP. <br>
 Disini saya akan menjalankan Apache dan MySQL pada aplikasi Ampps. <br>
 ![Web Server Ampps is ON](imgData/AmppsON.png) <br>
-Selain itu saya juga membuat folder pada **root directory** Ampps tersebut. Root directory terletak pada **C:\Program Files\Ampps\www**. <br>
+Selain itu saya juga membuat folder baru dengan nama *lab8_php_database* pada **root directory** Ampps tersebut. Root directory terletak pada **C:\Program Files\Ampps\www**. <br>
 ![Ampps - Root Directory Folders](imgData/RootDir.png)
