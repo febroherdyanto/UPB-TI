@@ -40,3 +40,32 @@ mysql> create database latihan1;
 ![MySQL - Database Created using CLI method](imgData/databaseCreated.png)
 
 ## `Create Table on Latihan1`
+
+Tabel merupakan kumpulan data (nilai) yang diorganisasikan ke dalam baris (record) dan kolom (field). Masing-masing kolom memiliki nama yang spesifik dan unik.<br>
+Setelah database dibuat, saya akan membuat table pada database latihan1. Sebelum membuat tamble, pada CLI SQL kita diharuskan memilih database yang akan digunakan dengan mengetikkan perintah berikut pada CMD. 
+
+```
+mysql> use latihan1;
+//Database changed
+```
+
+![MySQL - Database Changed to latihan1](imgData/dbChanged.png) 
+
+<br>
+
+Setelah memilih database, saatnya membuat database dengan perintah berikut.
+
+```
+mysql> create table data_barang(
+    -> id_barang int(10) auto_increment Primary Key,
+    -> kategori varchar(30),
+    -> nama varchar(30),
+    -> gambar varchar(100),
+    -> harga_beli decimal(10,0),
+    -> harga_jual decimal(10,0),
+    -> stok int(4)
+    -> );
+//Query OK, 0 rows affected, 2 warnings (0.04 sec)
+```
+
+![MySQL - Table data_barang Created on Database latihan1](imgData/tableCreated.png)
