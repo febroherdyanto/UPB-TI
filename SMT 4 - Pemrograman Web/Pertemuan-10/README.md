@@ -69,3 +69,21 @@ mysql> create table data_barang(
 ```
 
 ![MySQL - Table data_barang Created on Database latihan1](imgData/tableCreated.png)
+
+## `Add Records on Table`
+
+Setelah table dalam database sudah dibuat, saya akan mencoba untuk menambahkan data / record pada table tersebut. Dengan memasukkan perintah berikut pada CMD.
+
+```
+mysql> insert into data_barang (kategori, nama, gambar, harga_beli, harga_jual, stok)
+    -> values ('Elektronik', 'HP Samsung Android', 'hp_samsung.jpg', 2000000, 2400000, 5),
+    -> ('Elektronik', 'HP Xiaomi Android', 'hp_xiaomi.jpg', 1000000, 1400000, 5),
+    -> ('Elektronik', 'HP OPPO Andoid', 'hp_oppo.jpg', 1800000, 2300000, 5);
+// Query OK, 3 rows affected (0.02 sec)
+// Records: 3  Duplicates: 0  Warnings: 0
+```
+
+![MySQL - Add records on Table data_barang](imgData/insertData.png)
+
+## `Show Record from Table`
+
