@@ -31,13 +31,12 @@ $result = mysqli_query($conn, $sql);
         <div class="col-sm-12">
             <div class="text-center">
                 <h1>Data Barang</h1>
-                <hr>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-sm-12">
-            <a href="tambah.php" style="text-decoration: none;"><button class="btn btn-primary"><i class="fa fa-plus"></i> Tambah</button></a> <br><br>
+            <a href="tambah.php" style="text-decoration: none;"><button class="btn btn-primary"><i class="fa fa-plus"></i> Tambah</button></a> <br>
             <table class="table table-striped table-bordered">
                 <thead class="text-center">
                     <th>Gambar</th>
@@ -54,7 +53,7 @@ $result = mysqli_query($conn, $sql);
                             while($row = mysqli_fetch_array($result)):
                     ?>
                     <tr>
-                        <td><img src="gambar/<?= $row['gambar']; ?>" class="rounded mx-auto d-block"></td>
+                        <td><img src="gambar/<?= $row['gambar']; ?>" class="rounded mx-auto d-block" width="100px" height="80px"></td>
                         <td><?= $row['nama']; ?></td>
                         <td><?= $row['kategori']; ?></td>
                         <td class="text-center"><?= $row['harga_beli']; ?></td>
@@ -71,7 +70,6 @@ $result = mysqli_query($conn, $sql);
             </table>
         </div>
     </div>
-    <hr>
     <div class="row">
         <div class="card col-sm-12 text-white bg-dark">
             <div class="card-body text-center">
