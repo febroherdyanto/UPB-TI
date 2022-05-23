@@ -133,3 +133,88 @@ Hasil dari file tersebut akan menampilkan file kosong, bisa juga menampilkan out
 
 ## `Show Data from SQL on PHP`
 
+Disini saya akan menjelaskan menampilkan data dari database menggunakan PHP dan Bootstrap. Berikut source code yang saya gunakan.
+
+```
+<?php
+include 'koneksi.php';
+
+//Query untuk menampilkan data dari database
+
+$sql = "select * from data_barang";
+$result = mysqli_query($conn, $sql);
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Barang</title>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="text-center">
+                <h1>Data Barang</h1>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <a href="tambah.php" style="text-decoration: none;"><button class="btn btn-primary"><i class="fa fa-plus"></i> Tambah</button></a> <br><br>
+            <table class="table table-striped table-bordered">
+                <thead class="text-center">
+                    <th>Gambar</th>
+                    <th>Nama Barang</th>
+                    <th>Kategori</th>
+                    <th>Harga Beli</th>
+                    <th>Harga Jual</th>
+                    <th>Stok</th>
+                    <th>Aksi</th>
+                </thead>
+                <tbody>
+                    <?php
+                        if($result):
+                            while($row = mysqli_fetch_array($result)):
+                    ?>
+                    <tr>
+                        <td><img src="gambar/<?= $row['gambar']; ?>" class="rounded mx-auto d-block"></td>
+                        <td><?= $row['nama']; ?></td>
+                        <td><?= $row['kategori']; ?></td>
+                        <td class="text-center"><?= $row['harga_beli']; ?></td>
+                        <td class="text-center"><?= $row['harga_jual']; ?></td>
+                        <td class="text-center"><?= $row['stok']; ?></td>
+                        <td class="text-center"><?= $row['id_barang']; ?></td>
+                    </tr>
+                    <?php endwhile; else: ?>
+                    <tr>
+                        <td colspan="7">Tidak ada data</td>
+                    </tr>
+                    <?php endif; ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="card col-sm-12 text-white bg-dark">
+            <div class="card-body text-center">
+                Febro Herdyanto - 312010043 - TI.20.B.1 <br>
+                &copy; 2022 - Universitas Pelita Bangsa
+            </div>
+        </div>
+    </div>
+</div> <!-- end of Container -->
+
+</body>
+</html>
+```
+
+Hasil dari source code tersebut seperti berikut. <br>
+![Output Data Barang using PHP Bootstrap](imgData/dataBarang.png)
