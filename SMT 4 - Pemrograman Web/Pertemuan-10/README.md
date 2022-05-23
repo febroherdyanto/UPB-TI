@@ -87,3 +87,21 @@ mysql> insert into data_barang (kategori, nama, gambar, harga_beli, harga_jual, 
 
 ## `Show Record from Table`
 
+Data telah berhasil ditambahkan, pada poin ini saya akan menampilkan semua data yang ada di dalam table tersebut. Dengan mengetikkan perintah berikut.
+
+```
+mysql> select * from data_barang;
++-----------+------------+--------------------+----------------+------------+------------+------+
+| id_barang | kategori   | nama               | gambar         | harga_beli | harga_jual | stok |
++-----------+------------+--------------------+----------------+------------+------------+------+
+|         1 | Elektronik | HP Samsung Android | hp_samsung.jpg |    2000000 |    2400000 |    5 |
+|         2 | Elektronik | HP Xiaomi Android  | hp_xiaomi.jpg  |    1000000 |    1400000 |    5 |
+|         3 | Elektronik | HP OPPO Andoid     | hp_oppo.jpg    |    1800000 |    2300000 |    5 |
++-----------+------------+--------------------+----------------+------------+------------+------+
+// 3 rows in set (0.00 sec)
+```
+
+![MySQL - Select data from table data_barang](imgData/selectData.png)
+
+# `CRUD PROGRAMS`
+
