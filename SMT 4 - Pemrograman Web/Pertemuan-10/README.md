@@ -105,3 +105,31 @@ mysql> select * from data_barang;
 
 # `CRUD PROGRAMS`
 
+Pada point ini saya akan mencoba membuat program menggunakan PHP - MySQL.
+
+## `Create PHP SQL Connection`
+
+File pertama yang saya buat adalah koneksi dari PHP ke MySQL / database yang telah saya buat sebelumnya. Saya menuliskan beberapa source code pada file **koneksi.php**.
+
+```
+<?php
+
+$host = 'localhost';
+$user = 'root';
+$pass = 'mysql';
+$db = 'latihan1';
+
+$conn = mysqli_connect($host, $user, $pass, $db);
+
+if($conn == false){
+    echo "Koneksi Gagal";
+    die();
+} #else echo "Koneksi Berhasil";
+
+?>
+```
+
+Hasil dari file tersebut akan menampilkan file kosong, bisa juga menampilkan output *Koneksi Berhasil* pada browser.
+
+## `Show Data from SQL on PHP`
+
