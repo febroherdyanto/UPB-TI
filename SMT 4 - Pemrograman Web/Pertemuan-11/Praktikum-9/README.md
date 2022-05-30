@@ -151,6 +151,6 @@ Hasil dari Halaman About akan muncul seperti berikut. <br>
 
 ![Image Data - Header Tasks](tasks/gambar/tambahData.png)
 
-### `Add Data Page View`
+### `Edit Data Page View`
 
 ![Image Data - Header Tasks](tasks/gambar/editData.png)
