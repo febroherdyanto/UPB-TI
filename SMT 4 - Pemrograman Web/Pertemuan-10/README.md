@@ -513,3 +513,22 @@ Berikut hasil yang saya dapatkan dari browser. <br>
 
 ## `Feature Delete Data`
 
+Pada poin ini saya membuat fitur hapus data dengan membuat file baru dengan nama **hapus.php**.
+
+```
+<?php
+include_once 'koneksi.php';
+$id = $_GET['id'];
+$sql = "DELETE FROM data_barang WHERE id_barang = '{$id}'";
+$result = mysqli_query($conn, $sql);
+
+echo "<script>alert('Data Berhasil Dihapus'); window.location.href = 'index.php'</script>";
+?>
+```
+
+Hasil pada output tersebut akan menampilkan alert javascript. <br>
+![Image Data - Delete Data](imgData/delete.png)
+
+<br>
+
+![Image Data - After Delete Data](imgData/afterDelete.png)
