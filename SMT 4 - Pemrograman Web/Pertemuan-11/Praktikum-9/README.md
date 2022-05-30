@@ -66,3 +66,23 @@ Hasil pada Header tersebut akan seperti ini.
 ![Image Data - Header File](imgData/header.png)
 
 ## `Create Footer`
+
+Setelah membuat header, saya akan membuat footer. Dengan membuat file baru dengan nama **footer.php**.
+
+```
+    <div class="row">
+        <div class="col col-sm-12">
+            <div class="card text-white bg-dark mb-1">
+                <div class="card-body text-center">
+                    Febro Herdyanto - 312010043 - TI.20.B.1 <br>
+                    &copy; 2022 - Universitas Pelita Bangsa
+                </div>
+            </div>
+        </div>
+    </div>
+```
+
+Hasil dari footer tersebut, akan menampilkan seperti berikut. <br>
+![Image Data - PHP Modular Footer](imgData/footer.png)
+
+## `Create Home Page`
