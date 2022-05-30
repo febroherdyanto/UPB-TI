@@ -132,3 +132,5 @@ echo "</body></html>";
 
 Hasil pada pemanggilan form Input akan menampilkan seperti gambar dibawah ini. <br>
 ![Image Data - Class Form and Input the Field](imgData/formInput.png)
+
+Terima Kasih
