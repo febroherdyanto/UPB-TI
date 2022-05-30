@@ -105,3 +105,26 @@ require('header.php');
 Hasil dari Home Page akan seperti berikut. <br>
 ![Image Data - Home Page](imgData/home.png)
 
+## `Create About Page`
+
+Saya akan membuat konten pada Halaman About. dengan membuat file baru **about.php** dan mengisikan source code dibawah ini.
+
+```
+<?php
+require('header.php');
+?>
+
+<div class="container-fluid">
+    <h2>Ini Halaman About</h2>
+    <p>Ini adalah bagian content dari halaman.</p>
+</div>
+
+<?php require('footer.php'); ?>
+```
+
+Hasil dari Halaman About akan muncul seperti berikut. <br>
+![Image Data - About Page](imgData/about.png)
+
+## `Question and Task`
+
+> Implementasikan konsep modularisasi pada kode program praktikum 8 tentang database, sehingga setiap halamannya memiliki template tampilan yang sama.
