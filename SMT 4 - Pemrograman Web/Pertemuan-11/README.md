@@ -10,3 +10,5 @@
 | Dosen | Agung Nugroho,S.Kom.,M.Kom |
 
 <hr>
+
+## Tugas terdapat pada Folder Masing-Masing Praktikum
