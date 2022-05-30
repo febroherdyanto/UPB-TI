@@ -86,3 +86,22 @@ Hasil dari footer tersebut, akan menampilkan seperti berikut. <br>
 ![Image Data - PHP Modular Footer](imgData/footer.png)
 
 ## `Create Home Page`
+
+Setelah header dan footer terbuat, saya akan membuat konten pada halaman home. Dengan membuat file baru dengan nama **home.php** dan mengisikan source code berikut.
+
+```
+<?php
+require('header.php');
+?>
+
+<div class="container-fluid">
+    <h2>Ini Halaman Home</h2>
+    <p>Ini adalah bagian content dari halaman.</p>
+</div>
+
+<?php require('footer.php'); ?>
+```
+
+Hasil dari Home Page akan seperti berikut. <br>
+![Image Data - Home Page](imgData/home.png)
+
