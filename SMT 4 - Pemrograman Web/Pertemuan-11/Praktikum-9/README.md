@@ -128,3 +128,17 @@ Hasil dari Halaman About akan muncul seperti berikut. <br>
 ## `Question and Task`
 
 > Implementasikan konsep modularisasi pada kode program praktikum 8 tentang database, sehingga setiap halamannya memiliki template tampilan yang sama.
+
+## `Answer`
+
+> Saya akan membuat folder baru dengan nama **tasks* dan akan dijelaskan didalamnya
+
+<hr>
+
+### `Heaer View`
+
+![Image Data - Header Tasks](tasks/gambar/header.png)
+
+### `Footer View`
+
+![Image Data - Header Tasks](tasks/gambar/footer.png)
