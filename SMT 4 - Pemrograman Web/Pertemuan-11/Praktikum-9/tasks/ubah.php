@@ -77,14 +77,10 @@ if (!$result) die('Error: Data tidak tersedia');
 <body>
 
 <div class="container">
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="text-center">
-                <h1><i class="fa fa-edit"></i> Ubah Data Barang</h1>
-                <hr>
-            </div>
-        </div>
-    </div>
+    <br>
+    <?php include 'header.php'; ?>
+    <hr>
+    <h1 class="text-center">Tambah Data Barang</h1>
     <form method="post" action="" enctype="multipart/form-data">
     <div class="col-sm-12">
         <div class="mb-3 row">
@@ -140,6 +136,8 @@ if (!$result) die('Error: Data tidak tersedia');
         </div>
     </div>
     </form>
+    
+    <?php include 'footer.php'; ?>
 </div> <!-- end of Container -->
 
 </body>

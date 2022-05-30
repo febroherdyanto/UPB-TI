@@ -135,7 +135,7 @@ Hasil dari Halaman About akan muncul seperti berikut. <br>
 
 <hr>
 
-### `Heaer View`
+### `Header View`
 
 ![Image Data - Header Tasks](tasks/gambar/header.png)
 
@@ -146,3 +146,11 @@ Hasil dari Halaman About akan muncul seperti berikut. <br>
 ### `Home Page View`
 
 ![Image Data - Header Tasks](tasks/gambar/index.png)
+
+### `Add Data Page View`
+
+![Image Data - Header Tasks](tasks/gambar/tambahData.png)
+
+### `Add Data Page View`
+
+![Image Data - Header Tasks](tasks/gambar/editData.png)
