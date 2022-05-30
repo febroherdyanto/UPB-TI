@@ -25,27 +25,22 @@ $result = mysqli_query($conn, $sql);
 
 </head>
 <body>
-
+<br>
 <div class="container">
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="text-center">
-                <h1>Data Barang</h1>
-            </div>
-        </div>
-    </div>
+    <?php include 'header.php'; ?>
+    <hr>
     <div class="row">
         <div class="col col-sm-12">
-            <a href="tambah.php" style="text-decoration: none;"><button class="btn btn-primary"><i class="fa fa-plus"></i> Tambah</button></a> <br>
+            <a href="tambah.php" style="text-decoration: none;"><button class="btn btn-primary"><i class="fa fa-plus"></i> Tambah</button></a> <br><br>
             <table class="table table-responsive table-striped table-bordered">
                 <thead class="text-center">
-                    <th>Gambar</th>
-                    <th>Nama Barang</th>
-                    <th>Kategori</th>
-                    <th>Harga Beli</th>
-                    <th>Harga Jual</th>
-                    <th>Stok</th>
-                    <th>Aksi</th>
+                    <th width="20%">Gambar</th>
+                    <th width="20%">Nama Barang</th>
+                    <th width="15%">Kategori</th>
+                    <th width="10%">Harga Beli</th>
+                    <th width="10%">Harga Jual</th>
+                    <th width="10%">Stok</th>
+                    <th width="20%">Aksi</th>
                 </thead>
                 <tbody>
                     <?php
@@ -71,14 +66,7 @@ $result = mysqli_query($conn, $sql);
             </table>
         </div>
     </div>
-    <div class="row">
-        <div class="card col-sm-12 text-white bg-dark">
-            <div class="card-body text-center">
-                Febro Herdyanto - 312010043 - TI.20.B.1 <br>
-                &copy; 2022 - Universitas Pelita Bangsa
-            </div>
-        </div>
-    </div>
+    <?php include 'footer.php'; ?>
 </div> <!-- end of Container -->
 
 </body>

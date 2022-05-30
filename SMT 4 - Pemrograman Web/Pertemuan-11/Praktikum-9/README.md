@@ -142,3 +142,7 @@ Hasil dari Halaman About akan muncul seperti berikut. <br>
 ### `Footer View`
 
 ![Image Data - Header Tasks](tasks/gambar/footer.png)
+
+### `Home Page View`
+
+![Image Data - Header Tasks](tasks/gambar/index.png)
