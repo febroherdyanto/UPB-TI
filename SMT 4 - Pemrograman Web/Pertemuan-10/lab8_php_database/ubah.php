@@ -1,12 +1,14 @@
 <?php
+
 include_once 'koneksi.php';
 if(isset($_POST['submit'])){
+    $id = $_POST['id'];
     $nama = $_POST['nama'];
     $kategori = $_POST['kategori'];
     $harga_jual = $_POST['harga_jual'];
     $harga_beli = $_POST['harga_beli'];
     $stok = $_POST['stok'];
-
+    
     $namafile = $_FILES['picture']['name'];  
     $ukuran = $_FILES['picture']['size'];  
     $error = $_FILES['picture']['error'];  
@@ -22,18 +24,37 @@ if(isset($_POST['submit'])){
         }
     }
 
-
-    $sql = 'INSERT INTO data_barang (nama, kategori,harga_jual, harga_beli, stok, gambar) ';
-    $sql .= "VALUE ('{$nama}', '{$kategori}','{$harga_jual}', '{$harga_beli}', '{$stok}', '{$namafile}')";
-    $result = mysqli_query($conn, $sql);
-    if($result == true){
-        echo "DATA Berhasil disimpan";
-        header('location: index.php');
-    }else{
-        echo "data gagal disimpan ".mysqli_error($conn).' - '.$error;
+    $sql = 'UPDATE data_barang SET ';
+    $sql .= "nama = '{$nama}', kategori = '{$kategori}', ";
+    $sql .= "harga_jual = '{$harga_jual}', harga_beli = '{$harga_beli}', stok= '{$stok}' ";
+    
+    if (!empty($namafile))
+        $sql .= ", gambar = '{$namafile}' ";
+        $sql .= "WHERE id_barang = '{$id}'";
+        $result = mysqli_query($conn, $sql);
+        
+        if($result == true){
+            echo "DATA Berhasil disimpan";
+            header('location: index.php');
+        }else{
+            echo "data gagal disimpan ".mysqli_error($conn).' - '.$error;
+        }
     }
-}
 
+
+// ============== GET DATA FROM URL
+
+$id = $_GET['id'];
+$sql = "SELECT * FROM data_barang WHERE id_barang = '{$id}'";
+$result = mysqli_query($conn, $sql);
+
+if (!$result) die('Error: Data tidak tersedia');
+    $data = mysqli_fetch_array($result);
+    
+    function is_select($var, $val) {
+        if ($var == $val) return 'selected="selected"';
+        return false;
+    }
 ?>
 
 <!DOCTYPE html>
@@ -59,7 +80,7 @@ if(isset($_POST['submit'])){
     <div class="row">
         <div class="col-sm-12">
             <div class="text-center">
-                <h1>Tambah Data Barang</h1>
+                <h1><i class="fa fa-edit"></i> Ubah Data Barang</h1>
                 <hr>
             </div>
         </div>
@@ -69,41 +90,47 @@ if(isset($_POST['submit'])){
         <div class="mb-3 row">
             <label for="nama" class="col-sm-2 col-form-label">Nama Barang</label>
             <div class="col-sm-7">
-                <input type="text" name="nama" class="form-control" id="nama">
+                <input type="text" name="nama" class="form-control" value="<?php echo $data['nama'] ?>" id="nama">
             </div>
         </div>
         <div class="mb-3 row">
             <label for="kategori" class="col-sm-2 col-form-label">Kategori Barang</label>
             <div class="col-sm-7">
                 <select name="kategori" class="form-control form-select">
-                    <option value="Komputer">Komputer</option>
-                    <option value="Elektronik">Elektronik</option>
-                    <option value="Hand Phone">Hand Phone</option>
+                    <option <?php echo is_select('Komputer', $data['kategori']); ?> value="Komputer">Komputer</option>
+                    <option <?php echo is_select('Elektronik', $data['kategori']); ?> value="Elektronik">Elektronik</option>
+                    <option <?php echo is_select('Hand Phone', $data['kategori']); ?> value="Hand Phone">Hand Phone</option>
                 </select>
             </div>
         </div>
         <div class="mb-3 row">
             <label for="hargabeli" class="col-sm-2 col-form-label">Harga Beli</label>
             <div class="col-sm-7">
-                <input type="text" name="harga_beli" id="hargabeli" class="form-control">
+                <input type="text" name="harga_beli" value="<?php echo $data['harga_beli']; ?>" id="hargabeli" class="form-control">
             </div>
         </div>
         <div class="mb-3 row">
             <label for="hargajual" class="col-sm-2 col-form-label">Harga Jual</label>
             <div class="col-sm-7">
-                <input type="text" name="harga_jual" id="hargajual" class="form-control">
+                <input type="text" name="harga_jual" value="<?php echo $data['harga_jual']; ?>" id="hargajual" class="form-control">
             </div>
         </div>
         <div class="mb-3 row">
             <label for="stok" class="col-sm-2 col-form-label">Stok</label>
             <div class="col-sm-7">
-                <input type="text" name="stok" id="stok" class="form-control">
+                <input type="text" name="stok" value="<?php echo $data['stok']; ?>" id="stok" class="form-control">
             </div>
         </div>
         <div class="mb-3 row">
-            <label for="gambar" class="col-sm-2 col-form-label">Gambar</label>
+            <label for="gambar" class="col-sm-2 col-form-label">Preview Gambar</label>
             <div class="col-sm-7">
-                <input type="file" name="picture" class="form-control file-upload-info">
+                <img src="gambar/<?php echo $data['gambar']; ?>" class="rounded float-start" alt="<?php echo "Gambar ".$data['nama']; ?>" width="150px" height="150px">
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="gambar" class="col-sm-2 col-form-label">Ubah Gambar</label>
+            <div class="col-sm-7">
+                <input type="file" name="picture" class="form-control file-upload-info"> <i style="color: grey;">* Kosongkan Apabila tidak dirubah</i>
             </div>
         </div>
         <div class="mb-3 row">

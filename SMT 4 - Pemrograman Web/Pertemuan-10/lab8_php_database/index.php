@@ -35,9 +35,9 @@ $result = mysqli_query($conn, $sql);
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col col-sm-12">
             <a href="tambah.php" style="text-decoration: none;"><button class="btn btn-primary"><i class="fa fa-plus"></i> Tambah</button></a> <br>
-            <table class="table table-striped table-bordered">
+            <table class="table table-responsive table-striped table-bordered">
                 <thead class="text-center">
                     <th>Gambar</th>
                     <th>Nama Barang</th>
@@ -59,7 +59,8 @@ $result = mysqli_query($conn, $sql);
                         <td class="text-center"><?= $row['harga_beli']; ?></td>
                         <td class="text-center"><?= $row['harga_jual']; ?></td>
                         <td class="text-center"><?= $row['stok']; ?></td>
-                        <td class="text-center"><?= $row['id_barang']; ?></td>
+                        <td class="text-center"><a href="ubah.php?id=<?= $row['id_barang']; ?>" style="text-decoration: none;"><i class="fa fa-edit"></i> Ubah</a> | 
+                        <a href="hapus.php?id=<?= $row['id_barang']; ?>" style="text-decoration: none;"><i class="fa fa-trash"></i> Hapus</a></td>
                     </tr>
                     <?php endwhile; else: ?>
                     <tr>
