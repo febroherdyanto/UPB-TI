@@ -79,21 +79,21 @@
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav" style="font-size: 14px; font-weight: bold;">
                         <li class="nav-item" style="padding-right: 15px;">
-                            <a class="nav-link active" href="<?= base_url('/'); ?>">Home</a>
+                            <a class="nav-link active" href="/">Home</a>
                         </li>
                         <li class="nav-item" style="padding-right: 15px;">
                             <a class="nav-item">
-                                <a href="<?= base_url('/artikel'); ?>" class="nav-link">Artikel</a>
+                                <a href="artikel" class="nav-link">Artikel</a>
                             </a>
                         </li>
                         <li class="nav-item" style="padding-right: 15px;">
                             <a class="nav-item">
-                                <a href="<?= base_url('/about'); ?>" class="nav-link">About</a>
+                                <a href="about" class="nav-link">About</a>
                             </a>
                         </li>
                         <li class="nav-item" style="padding-right: 15px;">
                             <a class="nav-item">
-                                <a href="<?= base_url('/contact'); ?>" class="nav-link">Contact</a>
+                                <a href="contact" class="nav-link">Contact</a>
                             </a>
                         </li>
                     </ul>

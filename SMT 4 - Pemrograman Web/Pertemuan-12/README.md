@@ -285,3 +285,12 @@ Semua telah selesai dibuat, saya akan melakukan refresh pada halaman About di Br
 
 ## `Answers`
 
+Saya telah membuat Routes, Controller Page, dan View untuk menu Artikel, dan Cntact. Dimana semua isi berada pada template yang telah disediakan.<br>
+
+* **Article Page** <br>
+![Image Data - Article Page View on Browser](imgData/LayoutArticle.png)
+
+<br>
+
+* **Contact Page** <br>
+![Image Data - Contact Page View on Browser](imgData/LayoutContact.png)
