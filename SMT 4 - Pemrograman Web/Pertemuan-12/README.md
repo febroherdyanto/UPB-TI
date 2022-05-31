@@ -28,4 +28,7 @@ Pada point *preparation* saya melakukan konfigurasi pada Web Server (Ampps). Beb
 Disini saya akan mengunduh file dari Code Igniter yang akan digunakan pada web [https://codeigniter.com/download](https://codeigniter.com/download) . Kemudian akan saya simpan pada docroot Web Server (Ampps) saya. Saya ekstrak dan ubah nama folder menjadi **ci4**. <br>
 ![Image Data - Directory Root for Code Igniter](imgData/dirRoot.png)
 
+Kemudian saya buka di Browser, akan muncul tampilan seperti berikut. <br>
+![Image Data - Welcome Page Code Igniter 4](imgData/WelcomePageCI4.png)
+
 ### `PHP Spark on CLI (Command Line Interface)`
