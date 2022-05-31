@@ -42,3 +42,15 @@ febro@febroherdyanto MINGW64 ~/OneDrive/IT/backup-github/UPB-TI/SMT 4 - Pemrogra
 ![Image Data - PHP Spark](imgData/phpSpark.png)
 
 ### `Turn On Debugging Mode`
+
+Untuk mengubah ke mode debugging, kita harus mengubah **environment** menjadi *development* pada file **.env**. <br>
+Sebelumnya, silahkan rename file **env** menjadi **.env** terlebih dahulu. <br>
+![Image Data - Change environment file and debugging mode](imgData/ChangeENV.png)
+
+<br>
+
+Sebagai contoh, saya akan mengubah salah satu file dan akan menampilkan pesan error pada browser. <br>
+![Image Data - Example Error on Debugging Mode](imgData/DebuggingError.png)
+
+### `Create New Routes`
+

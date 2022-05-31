@@ -340,3 +340,13 @@ CRITICAL - 2022-05-31 17:49:17 --> The framework needs the following extension(s
 #2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
 #3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
 #4 {main}
+CRITICAL - 2022-05-31 13:15:40 --> syntax error, unexpected '}', expecting ';'
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(797): class_exists()
+#5 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
