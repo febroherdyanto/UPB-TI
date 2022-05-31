@@ -32,3 +32,13 @@ Kemudian saya buka di Browser, akan muncul tampilan seperti berikut. <br>
 ![Image Data - Welcome Page Code Igniter 4](imgData/WelcomePageCI4.png)
 
 ### `PHP Spark on CLI (Command Line Interface)`
+
+Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk mengakses CLI buka terminal/command prompt. Arahkan pada direktori folder yang telah kita buat, yaitu **ci4**. 
+
+```
+febro@febroherdyanto MINGW64 ~/OneDrive/IT/backup-github/UPB-TI/SMT 4 - Pemrograman Web/Pertemuan-12/ci4 $ php spark
+```
+
+![Image Data - PHP Spark](imgData/phpSpark.png)
+
+### `Turn On Debugging Mode`
