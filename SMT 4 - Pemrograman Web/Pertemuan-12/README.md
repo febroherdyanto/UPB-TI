@@ -80,3 +80,32 @@ Setelah itu kita cek di web Browser dengan mengetikan docroot kita ditambah **/a
 
 ### `Create Controller`
 
+Setelah Routes berhasil saya buat, saya akan membuat Controller untuk menampilkan isi dalam browser yang terjadi Not Found sebelumnya. Saya membuat file baru dengan nama **Page.php** pada direktori **app/Controller**. Kemudian mengisikan source code dibawah ini.
+
+```
+<?php
+
+namespace App\Controllers;
+
+class Page extends BaseController{
+
+    public function about(){
+        echo "<h1>Ini Halaman About</h1>";
+    }
+
+    public function contact(){
+        echo "<h1>Ini Halaman Contact</h1>";
+    }
+
+    public function faqs(){
+        echo "<h1>Ini Halaman FAQ</h1>";
+    }
+
+}
+
+?>
+```
+
+Hasil setelah file tersebut disimpan dan merefresh kembali browser, akan menampilkan hasil. <br>
+![Image Data - About Page after Add Controller](imgData/AboutPageDraft.png)
+
