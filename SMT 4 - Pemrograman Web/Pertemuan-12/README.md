@@ -126,3 +126,42 @@ Sehingga halaman tos hanya bisa diakses melalui **.../page/tos**. Berikut tampil
 
 ### `Create View`
 
+Pada point ini saya akan membuat tampilan web agar lebih menarik. Saya membuat file baru dengan nama **about.php** pada directory **app/Views/about.php** dengan source code dibawah ini.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?= $title; ?></title>
+</head>
+<body>
+    
+    <h1><?= $title; ?></h1>
+        <hr>
+    <p><?= $content; ?></p>
+
+</body>
+</html>
+```
+
+Setelah View About dibuat, saya akan mengubah method Class About pada Controller Page menjadi :.
+
+```
+...
+    public function about(){
+        return view('about', [
+            'title' => 'Halaman About',
+            'content' => 'Ini adalah Halaman About yang menjelaskan tentang isi halaman, dibuat melalui Views'
+        ]);
+    }
+...
+```
+
+Hasil dari View dan Controller Page yang telah diubah akan menjadi seperti dibawah ini. <br>
+![Image Data - About Page via Views and Controller Page](imgData/AboutViaView.png)
+
+### `Create Layout Website using CSS`
+

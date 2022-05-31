@@ -5,7 +5,10 @@ namespace App\Controllers;
 class Page extends BaseController{
 
     public function about(){
-        echo "<h1>Ini Halaman About</h1>";
+        return view('about', [
+            'title' => 'Halaman About',
+            'content' => 'Ini adalah Halaman About yang menjelaskan tentang isi halaman, dibuat melalui Views'
+        ]);
     }
 
     public function contact(){
