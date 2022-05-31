@@ -165,3 +165,123 @@ Hasil dari View dan Controller Page yang telah diubah akan menjadi seperti dibaw
 
 ### `Create Layout Website using CSS`
 
+Disini saya akan lebih mempercantik tampilan Website menggunakan CSS. Untuk menambahkan CSS bisa diletakkan pada folder **public**. Saya akan membuat folder baru dengan nama **template** dan membuat beberapa bagian template dibagi menjadi dua, yaitu Header dan Footer.
+
+Pertama, saya akan memodifikasi tampilan About.
+
+Header yang saya buat.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?= $title; ?></title>    
+</head>
+<body>
+
+<div class="container" style="box-shadow: 0 0 1em #cccccc">
+    <div class="row">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+    </div>
+    <div class="row">
+        <nav class="navbar navbar-collapse navbar-expand navbar-dark bg-primary">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav" style="font-size: 14px; font-weight: bold;">
+                        <li class="nav-item" style="padding-right: 15px;">
+                            <a class="nav-link active" href="<?= base_url('/'); ?>">Home</a>
+                        </li>
+                        <li class="nav-item" style="padding-right: 15px;">
+                            <a class="nav-item">
+                                <a href="<?= base_url('/artikel'); ?>" class="nav-link">Artikel</a>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="padding-right: 15px;">
+                            <a class="nav-item">
+                                <a href="<?= base_url('/about'); ?>" class="nav-link">About</a>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="padding-right: 15px;">
+                            <a class="nav-item">
+                                <a href="<?= base_url('/contact'); ?>" class="nav-link">Contact</a>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div> <br>
+    <div class="row">
+```
+
+<br>
+
+Sedangkan itu, halaman footer yang saya buat. 
+
+```
+
+        <div class="col col-4">
+            <ul class="list-group">
+                <li class="list-group-item active fw-bolder" aria-current="true">Widget Header</li>
+                <li class="list-group-item">E-Campus PB</li>
+                <li class="list-group-item">Portfolio</li>
+                <li class="list-group-item">Widget Link</li>
+                <li class="list-group-item">Widget Link</li>
+                <li class="list-group-item">Widget Link</li>
+            </ul>
+
+            <br><br>
+
+            <div class="card mb-3" style="max-width: 18rem;">
+                <div class="card-header text-white bg-primary fw-bolder">Widget Text</div>
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quidem vitae mollitia suscipit dolores non deleniti, quis autem reiciendis eos, labore iure nam facilis minus id laborum maiores laboriosam ipsam?
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card text-white bg-dark mb-1">
+                <div class="card-body text-center">
+                    Febro Herdyanto - 312010043 - TI.20.B.1 <br>
+                    &copy; 2022 - Universitas Pelita Bangsa
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+```
+
+Setelah Header dan Footer selesai dibuat, saya akan memodifikasi halaman inti pada About.
+
+```
+<?= $this->include('template/header'); ?>
+
+<div class="col-sm-8">
+    <h1><?= $title; ?></h1>
+        <hr>
+    <p><?= $content; ?></p>
+</div>
+<?= $this->include('template/footer'); ?>
+```
+
+Semua telah selesai dibuat, saya akan melakukan refresh pada halaman About di Browser. <br>
+![Image Data - About Page with CSS](imgData/LayoutAbout.png)
+
+## `Question and Task`
+
+> Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
+
+<hr>
+
+## `Answers`
+
