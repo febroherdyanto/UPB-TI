@@ -1,0 +1,342 @@
+CRITICAL - 2022-05-31 17:17:48 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:18:08 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:21:28 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:21:29 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:21:30 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:22:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:23:48 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:23:49 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:24:20 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:24:45 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:24:46 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:28:36 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:28:36 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:28:37 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:29:46 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:29:47 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:29:48 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:30:05 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:30:06 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:30:28 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:30:29 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:30:30 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:30:30 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:31:31 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:31:32 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:32:04 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:32:05 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:32:15 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:32:16 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:33:00 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:33:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:33:02 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:34:52 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:34:53 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:35:39 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:37:34 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:40:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:40:02 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:40:03 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:48:29 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:48:30 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:48:41 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:48:42 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:48:52 --> The framework needs the following extension(s) installed and loaded: curl, intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:49:05 --> The framework needs the following extension(s) installed and loaded: curl, intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:49:06 --> The framework needs the following extension(s) installed and loaded: curl, intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:49:06 --> The framework needs the following extension(s) installed and loaded: curl, intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:49:06 --> The framework needs the following extension(s) installed and loaded: curl, intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:49:06 --> The framework needs the following extension(s) installed and loaded: curl, intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:49:07 --> The framework needs the following extension(s) installed and loaded: curl, intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:49:15 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:49:16 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:49:16 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:49:16 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:49:16 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:49:16 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
+CRITICAL - 2022-05-31 17:49:17 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(28): require('C:\\Users\\febro\\...')
+#4 {main}
