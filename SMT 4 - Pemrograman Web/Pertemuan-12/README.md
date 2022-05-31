@@ -109,3 +109,20 @@ class Page extends BaseController{
 Hasil setelah file tersebut disimpan dan merefresh kembali browser, akan menampilkan hasil. <br>
 ![Image Data - About Page after Add Controller](imgData/AboutPageDraft.png)
 
+#### `Add New Controller TOS`
+
+Disini saya akan membuat Controller Page baru dengan nama tos. Method ini belum ada pada Routing yang seharusnya dibuat sebelumnya. 
+
+```
+...
+    public function tow(){
+        echo "<h1>Ini Halaman Term of Services</h1>";
+    }
+...
+```
+
+Sehingga halaman tos hanya bisa diakses melalui **.../page/tos**. Berikut tampilannya. <br>
+![Image Data - Create New Controller TOS](imgData/addTOS.png)
+
+### `Create View`
+
