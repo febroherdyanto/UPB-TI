@@ -54,3 +54,29 @@ Sebagai contoh, saya akan mengubah salah satu file dan akan menampilkan pesan er
 
 ### `Create New Routes`
 
+Setelah semua installasi selesai, saat ini saya akan mencoba untuk menambahkan Routes baru dalam file **app/Config/Routes.php**.
+
+```
+$routes->get('/about', 'Page::about');
+$routes->get('/contact', 'Page::contact');
+$routes->get('/faqs', 'Page::faqs');
+```
+
+![Image Data - Add New Routes](imgData/createNewRoutes.png)
+
+<br>
+
+Untuk mengetahui route yang ditambahkan sudah benar, buka CLI dan jalankan perintah berikut.
+
+```
+febro@febroherdyanto MINGW64 ~/OneDrive/IT/backup-github/UPB-TI/SMT 4 - Pemrograman Web/Pertemuan-12/ci4
+$ php spark routes
+```
+
+![Image Data - Check Routes is successfully created on PHP Spark](imgData/checkRoutesSpark.png) <br>
+
+Setelah itu kita cek di web Browser dengan mengetikan docroot kita ditambah **/about**. Akan menampilkan hasil seperti dibawah ini. <br>
+![Image Data - Check Routes on Browser](imgData/RoutesOnBrowser.png)
+
+### `Create Controller`
+
