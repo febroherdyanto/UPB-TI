@@ -41,4 +41,29 @@ Query OK, 0 rows affected, 2 warnings (0.04 sec)
 
 ### `Configure Database Connection`
 
-Selanjutnya saya akan melakukan konfigurasi pada database **lab_ci4**. 
+Selanjutnya saya akan melakukan konfigurasi pada database **lab_ci4**. Dengan melakukan konfigurasi file databases.php pada **App/Config/Database.php**.
+
+```
+public $default = [
+        'DSN'      => '',
+        'hostname' => 'localhost',
+        'username' => 'root',
+        'password' => 'mysql',
+        'database' => 'lab_ci4',
+        'DBDriver' => 'MySQLi',
+        'DBPrefix' => '',
+        'pConnect' => false,
+        'DBDebug'  => (ENVIRONMENT !== 'production'),
+        'charset'  => 'utf8',
+        'DBCollat' => 'utf8_general_ci',
+        'swapPre'  => '',
+        'encrypt'  => false,
+        'compress' => false,
+        'strictOn' => false,
+        'failover' => [],
+        'port'     => 3306,
+    ];
+```
+
+### `Create a Model`
+
