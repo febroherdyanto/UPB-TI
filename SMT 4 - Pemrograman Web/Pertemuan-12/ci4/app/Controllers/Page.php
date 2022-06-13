@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Models\ArtikelModel;
+
 class Page extends BaseController{
 
     public function about(){
@@ -26,6 +28,15 @@ class Page extends BaseController{
         echo "<h1>Ini Halaman Term of Services</h1>";
     }
 
+    public function artikel()
+    {
+        $title = 'Daftar Artikel';
+        $model = new ArtikelModel();
+        $artikel = $model->findAll();
+        return view('artikel/index', compact('artikel','title'));
+    }
+
+    /*
     public function artikel(){
         return view('artikel', [
             'title' => 'Article Page',
@@ -34,7 +45,9 @@ class Page extends BaseController{
             'isi_artikel' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatibus corporis voluptas repellat nulla labore, officiis atque soluta corrupti nobis consectetur fugit eius voluptates, exercitationem amet dolorem totam porro necessitatibus?' 
         ]);
     }
+    */
 
 }
+
 
 ?>

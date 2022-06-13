@@ -88,26 +88,56 @@ class ArtikelModel extends Model{
 
 ### 'Create a Controller`
 
-Saya akan membuat controller baru dengan nama **Artikel.php**.
+Sebelumnya saya telah membuat controller artikel, saya akan mengubahnya
 
 ```
-<?php 
-
-namespace App\Controllers;
-
+...
 use App\Models\ArtikelModel;
+...
 
-class Artikel extends BaseController{
-    public function index(){
+
+...
+    public function artikel()
+    {
         $title = 'Daftar Artikel';
         $model = new ArtikelModel();
         $artikel = $model->findAll();
         return view('artikel/index', compact('artikel','title'));
     }
-}
-
-?>
+...
 ```
 
 ### `Create View`
+
+Saya akan membuat View untuk memasukkan tampilan Artikel pada tamplate yang telah saya buat sebelumnya. Dengan membuat folder **artikel** baru pada View dan mengisi **index.php**.
+
+```
+<?= $this->include('template/header'); ?>
+
+<div class="col-sm-8">
+<?php 
+if($artikel): foreach($artikel as $row): ?>
+
+    <article class="entry">
+        <h2><a href="<?= base_url('/artikel/' . $row['slug']);?>"><?= $row['judul']; ?></a></h2>
+        <img src="<?= base_url('/gambar/' . $row['gambar']);?>" alt="<?= $row['judul']; ?>">
+        <p><?= substr($row['isi'], 0, 200); ?></p>
+    </article>
+
+    <hr class="divider">
+
+    <?php endforeach; else: ?>
+    
+        <article class="entry">
+            <h2>Belum ada Data.</h2>
+        </article>
+    <?php endif; ?>
+
+</div>
+<?= $this->include('template/footer'); ?>
+```
+
+![Img Data - Empty Article](imgData/artikelKosong.png)
+
+### `Insert Data to Database`
 

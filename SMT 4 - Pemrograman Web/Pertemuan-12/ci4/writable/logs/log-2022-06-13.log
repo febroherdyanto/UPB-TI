@@ -1,0 +1,88 @@
+CRITICAL - 2022-06-13 09:54:53 --> Undefined variable: title
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\app\Views\template\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\View\View.php(210): include('C:\\Users\\febro\\...')
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\View\View.php(424): CodeIgniter\View\View->render()
+#4 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\app\Views\index.php(1): CodeIgniter\View\View->include()
+#5 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\View\View.php(210): include('C:\\Users\\febro\\...')
+#6 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\Common.php(1089): CodeIgniter\View\View->render()
+#8 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\app\Controllers\Home.php(9): view()
+#9 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#10 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-13 09:56:24 --> Undefined variable: artikel
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\app\Views\artikel.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\View\View.php(210): include('C:\\Users\\febro\\...')
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\app\Controllers\Page.php(31): view()
+#5 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#6 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 09:57:17 --> Undefined variable: artikel
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\app\Views\artikel.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\View\View.php(210): include('C:\\Users\\febro\\...')
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\app\Controllers\Page.php(31): view()
+#5 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#6 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 09:58:36 --> Invalid file: artikel.php
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\app\Controllers\Page.php(31): view()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 10:00:55 --> Invalid file: artikel.php
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\app\Controllers\Page.php(31): view()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 10:01:57 --> Invalid file: artikel.php
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\app\Controllers\Page.php(31): view()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 10:05:16 --> Invalid file: artikel.php
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\app\Controllers\Page.php(31): view()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 10:17:23 --> Invalid file: artikel.php
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\app\Controllers\Page.php(32): view()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 10:19:01 --> Class 'App\Controllers\ArtikelModel' not found
+#0 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#1 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\febro\OneDrive\IT\backup-github\UPB-TI\SMT 4 - Pemrograman Web\Pertemuan-12\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
