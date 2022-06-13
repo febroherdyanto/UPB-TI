@@ -141,3 +141,21 @@ if($artikel): foreach($artikel as $row): ?>
 
 ### `Insert Data to Database`
 
+Saya akan memasukkan data pada database.
+
+```
+mysql> INSERT INTO artikel (judul, isi, slug) VALUE
+    -> ('Artikel pertama', 'Lorem Ipsum adalah contoh teks atau dummy dalam industri
+    '> percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi
+    '> standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak
+    '> dikenal mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah
+    '> buku contoh huruf.', 'artikel-pertama'),
+    -> ('Artikel kedua', 'Tidak seperti anggapan banyak orang, Lorem Ipsum bukanlah
+    '> teks-teks yang diacak. Ia berakar dari sebuah naskah sastra latin klasik dari
+    '> era 45 sebelum masehi, hingga bisa dipastikan usianya telah mencapai lebih
+    '> dari 2000 tahun.', 'artikel-kedua');
+Query OK, 2 rows affected (0.01 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+```
+
+![Img Data - Data Article Available](imgData/BeritaAvailable.png)
