@@ -13,6 +13,21 @@ class Artikel extends BaseController
         $artikel = $model->findAll();
         return view('artikel/index', compact('artikel','title'));
     }
+    public function view($slug){
+        $model = new ArtikelModel();
+        $artikel = $model->where([
+            'slug' => $slug
+        ])->first();
+
+        //Menampilkan error apabila tidak ada data
+        if(!$artikel){
+            throw PageNotFoundException::forPageNotFound();
+        }
+        $title = $artikel['judul'];
+        return view('artikel/detail', compact('artikel','title'));
+    }
 }
+
+
 
 ?>

@@ -159,3 +159,58 @@ Records: 2  Duplicates: 0  Warnings: 0
 ```
 
 ![Img Data - Data Article Available](imgData/BeritaAvailable.png)
+
+### `Detail Full Article`
+
+`Membuat Controller`
+
+Saya akan membuat controller **view**.
+
+```
+...
+    public function view($slug){
+        $model = new ArtikelModel();
+        $artikel = $model->where([
+            'slug' => $slug
+        ])->first();
+
+        //Menampilkan error apabila tidak ada data
+        if(!$artikel){
+            throw PageNotFoundException::forPageNotFound()
+        }
+        $title = $artikel['judul'];
+        return view('artikel/detail', compact('artikel','title'));
+    }
+...
+```
+
+`Membuat View Detail`
+
+Saya akan membuat view detail.
+
+```
+<?= $this->include('template/header'); ?>
+
+<div class="col-sm-8">
+    <article class="entry">
+        <h2><?= $artikel['judul']; ?></h2>
+        <img src="<?= base_url('/gambar/' . $artikel['gambar']);?>" alt="<?= $artikel['judul']; ?>">
+        <p><?= $row['isi']; ?></p>
+    </article>
+</div>
+<?= $this->include('template/footer'); ?>
+```
+
+`Membuat Routing untuk Detail Artikel`
+
+Saya akan menambahkan routing baru.
+
+```
+...
+$routes->get('/artikel/(:any)', 'Artikel::view/$1');
+...
+```
+
+Berikut adalah tampilan ketika detail artikel ditampilkan
+
+![Img Data Full Artikel Detail](imgData/fullArtikel.png)
