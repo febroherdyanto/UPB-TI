@@ -1,4 +1,4 @@
-# Praktikum 11 - Pertemuan 12 - Pemrograman Web
+# Praktikum - Pemrograman Web
 
 <hr>
 
@@ -15,5 +15,5 @@ Hi! Pada pertemuan sebelumnya saya sudah membuat beberapa materi mengenai PHP, m
 
 ### `Hyperlink of Practice`
 
-Silahkan [Praktikum-11](Klik Disini) untuk melihat hasil pada Praktikum-11 atau Pertemuan 12. <br>
-Silahkan [Praktikum-12](Klik Disini) untuk melihat hasil pada Praktikum-12 atau Pertemuan 13. <br>
+Silahkan [Klik Disini](Praktikum-11) untuk melihat hasil pada Praktikum-11 atau Pertemuan 12. <br>
+Silahkan [Klik Disini](Praktikum-12) untuk melihat hasil pada Praktikum-12 atau Pertemuan 13. <br>
