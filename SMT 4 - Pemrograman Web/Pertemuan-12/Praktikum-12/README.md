@@ -158,7 +158,8 @@ Query OK, 2 rows affected (0.01 sec)
 Records: 2  Duplicates: 0  Warnings: 0
 ```
 
-![Img Data - Data Article Available](imgData/BeritaAvailable.png)
+![Img Data - Insert Data Successfully](imgData/insertDataCLI.png) <br>
+![Img Data - Data Article Available](imgData/BeritaAvailable2.png)
 
 ### `Detail Full Article`
 
@@ -213,4 +214,4 @@ $routes->get('/artikel/(:any)', 'Artikel::view/$1');
 
 Berikut adalah tampilan ketika detail artikel ditampilkan
 
-![Img Data Full Artikel Detail](imgData/fullArtikel.png)
+![Img Data Full Artikel Detail](imgData/fullArtikel2.png)
