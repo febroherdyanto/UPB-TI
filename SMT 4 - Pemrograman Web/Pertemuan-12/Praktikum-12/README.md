@@ -88,3 +88,26 @@ class ArtikelModel extends Model{
 
 ### 'Create a Controller`
 
+Saya akan membuat controller baru dengan nama **Artikel.php**.
+
+```
+<?php 
+
+namespace App\Controllers;
+
+use App\Models\ArtikelModel;
+
+class Artikel extends BaseController{
+    public function index(){
+        $title = 'Daftar Artikel';
+        $model = new ArtikelModel();
+        $artikel = $model->findAll();
+        return view('artikel/index', compact('artikel','title'));
+    }
+}
+
+?>
+```
+
+### `Create View`
+
